@@ -54,7 +54,7 @@ MFE Structure:
 ```
 
 ### Partition Mode: Computes both ThreshKnot and Maximum Expected Accuracy (MEA) Structures
-To run LinearAlifold with the ThreshKnot and MEA modes, you can use the following command:
+To run LinearAlifold with the partition mode, you can use the following command:
 ```
 cat ./test_samples/sample01.fasta | ./linearalifold.py -pt
 Free Energy of Ensemble: -0.06 kcal/mol
