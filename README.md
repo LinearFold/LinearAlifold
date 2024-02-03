@@ -1,9 +1,8 @@
 # LinearAlifold: Linear-Time Consensus Structure Prediction for RNA Alignments
 
-Apoorv Malik†, Liang Zhang†, Ning Dai, Sizhen Li, He Zhang, David H. Mathews, Liang Huang†*
-
-\* corresponding author
-\† equal contribution
+Apoorv Malik†, Liang Zhang†, Ning Dai, Sizhen Li, He Zhang, David H. Mathews, Liang Huang†*  
+\* corresponding author  
+† equal contribution
 
 ## Description
 
