@@ -65,3 +65,9 @@ MEA Structure:
 Threshknot Structure:
 ...((.(((((((((...........))))))))).))
 ```
+
+## Reference
+Apoorv Malik†, Liang Zhang†, Ning Dai, Sizhen Li, He Zhang, David H. Mathews, Liang Huang†* (2023). LinearAlifold: Linear-Time Consensus Structure Prediction for RNA Alignments. In submission to Journal of Molecular Biology (JMB) Special Issue on Computation Resources for Molecular Biology.
+
+\* corresponding author  
+† equal contribution
