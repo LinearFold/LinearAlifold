@@ -596,6 +596,7 @@ void BeamCKYParser::run_inside() {
         }
         pscore_f = -pscore_f / 100.;
 
+        printf("\nMFE Structure: \n");
         printf("%s (%.2f = %.2f + %.2f)\n", result.c_str(), printscore, printscore - pscore_f, pscore_f);
         // unsigned long nos_tot = nos_H + nos_P + nos_M2 + nos_Multi + nos_M + nos_C;
         // cout << nos_tot << endl;

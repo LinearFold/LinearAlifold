@@ -482,11 +482,11 @@ void BeamCKYParser::parse_alifold(std::vector<std::string> &MSA, float **ribo, v
     }
     else {
         run_inside();
-        string structure(seq_length, '.');
-        bestC[seq_length - 1].set_attributes(0, seq_length - 1, TYPE_C);
-        backtrack(&bestC[seq_length - 1], structure);
-        printf("\nNew Backtrack Structure:\n");
-        printf("%s\n", structure.c_str());
+        // string structure(seq_length, '.');
+        // bestC[seq_length - 1].set_attributes(0, seq_length - 1, TYPE_C);
+        // backtrack(&bestC[seq_length - 1], structure);
+        // printf("\nNew Backtrack Structure:\n");
+        // printf("%s\n", structure.c_str());
         postprocess();
     }
 }
