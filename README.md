@@ -26,8 +26,6 @@ make
 cat MSA_file | ./linearalifold [OPTIONS]
 ```
 
-## Options
-
 ## Options   
     LinearAlifold Options:
     (Optional)
@@ -42,19 +40,6 @@ cat MSA_file | ./linearalifold [OPTIONS]
         -mf, --mea-file STRING               Path to the mea file. Outputs the MEA structure if specified.
         -tf, --threshknot-file STRING        Path to the threshknot file. Outputs the ThreshKnot structure if specified.
         -pt, --partition                     Enable the partition mode.
-
-
-- `-b`, `--b` `<int>`: Set the beam size. Default is 100.
-- `-pt`, `--partition`: Enable the partition mode.
-- `--verbose`: Enable verbose mode to print out more information. By default, this is set to false.
-- `--em` `<int>`: Select the energy model. Choose between 1 (Vienna) or 2 (BL*). Default is 2.
-- `-ct`, `--cutoff` `<int>`: Set the conservation score cutoff threshold. Default is -40.
-- `-bt`, `--beta` `<float>`: Specify the beta value. Default is 1.2.
-- `-dt`, `--delta` `<float>`: Specify the delta value. Default is 0.1.
-- `-tt`, `--threshknot-threshold` `<float>`: Set the threshknot threshold. Default is 0.3.
-- `--bpp-file` `<string>`: Path to the bpp file. When it is specified, the program will output the base pair probability matrix to the given file.
-- `--mea-file` `<string>`: Path to the mea file. When it is specified, the program will output the MEA structure to the given file.
-- `--threshknot-file` `<string>`: Path to the threshknot file. When it is specified, the program will output the ThreshKnot structure to the given file.
 
 ## Examples
 
