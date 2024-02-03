@@ -28,6 +28,22 @@ cat MSA_file | ./linearalifold [OPTIONS]
 
 ## Options
 
+## Options   
+    LinearAlifold Options:
+    (Optional)
+        -b,  --beam-size INT                 The beam size [default: 100]
+        -vb, --verbose                       Enable verbose mode to print out more information [default: False].
+        -em, --energy-model INT              Select the energy model. Choose between 1 (Vienna) or 2 (BL*) [default: 2].
+        -ct, --cutoff INT                    Set the conservation score cutoff threshold [default: -40].
+        -bt, --beta FLOAT                    Specify the beta value [default: 1.2].
+        -dt, --delta FLOAT                   Specify the delta value [default: 0.1].
+        -tt, --threshknot-threshold FLOAT    Set the threshknot threshold [default: 0.3].
+        -bf, --bpp-file STRING               Path to the bpp file. Outputs the base pair probability matrix if specified.
+        -mf, --mea-file STRING               Path to the mea file. Outputs the MEA structure if specified.
+        -tf, --threshknot-file STRING        Path to the threshknot file. Outputs the ThreshKnot structure if specified.
+        -pt, --partition                     Enable the partition mode.
+
+
 - `-b`, `--b` `<int>`: Set the beam size. Default is 100.
 - `-pt`, `--partition`: Enable the partition mode.
 - `--verbose`: Enable verbose mode to print out more information. By default, this is set to false.
