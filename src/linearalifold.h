@@ -7,6 +7,7 @@
 #include <vector>
 #include <map>
 #include <set>
+#include <random>
 
 #include "utils/sparsehash/dense_hash_map"
 #include "utils/energy_model.h"
@@ -158,15 +159,16 @@ class BeamCKYParser {
     BeamCKYParser(
         int beam_size = 100,
         bool is_verbose = true,
-        bool multi_approx = true,
-        bool partition_mode = false,
-        bool use_lazy_outside = false,
+        bool multi_approx = false,
+        bool partition_mode = false,        
+        bool use_lazy_outside = true,
         float pscore_threshold = -40,
         float pscore_beta = 1.0,
         float pscore_delta = 1.0,
         float mea_gamma = 3.0,
         float bpp_cutoff = std::numeric_limits<float>::min(),
         float threshknot_threshold = 0.3,
+        int sampling_size = 0,
         string bpp_file_name = "",
         string mea_file_name = "",
         string threshknot_file_name = ""
@@ -185,10 +187,11 @@ class BeamCKYParser {
     float pscore_delta = 1.0;
     float pscore_threshold = -40;
     float threshknot_threshold = 0.3;
+    int sampling_size = 0;
     
     bool partition_mode = false;
-    bool use_lazy_outside = false;
-    bool multi_approx = true;
+    bool use_lazy_outside = true;
+    bool multi_approx = false;
     bool is_verbose = true;
 
     void parse_alifold(vector<string> &MSA, float **ribo, vector<vector<int>> &a2s_fast, vector<vector<int>> &s5_fast, vector<vector<int>> &s3_fast, vector<vector<int>> &SS_fast, vector<float> &smart_gap);
@@ -200,7 +203,7 @@ class BeamCKYParser {
 
   private:
     void get_parentheses(char *result, string &seq);
-    void backtrack(State *state, string &structure);
+    void backtrack(State *state, string &structure, bool best_only=true, default_random_engine *generator=NULL);
     vector<HEdge> get_incoming_hedges(State *state, double multiplier, bool best_only);
     vector<pair<int, int>> get_pairs(string &structure);
 

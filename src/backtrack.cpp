@@ -1,9 +1,10 @@
 #include "linearalifold.h"
 #include <algorithm>
 
+
 using namespace std;
 
-void BeamCKYParser::backtrack(State *state, string &structure) {
+void BeamCKYParser::backtrack(State *state, string &structure, bool best_only, default_random_engine *generator) {
     if (state == NULL || state->type == TYPE_MAX) {
         return;
     }
@@ -13,9 +14,30 @@ void BeamCKYParser::backtrack(State *state, string &structure) {
         structure[state->idx.second] = ')';
     }
 
-    vector<HEdge> edge = get_incoming_hedges(state, inv_n, true);
-    backtrack(edge[0].left, structure);
-    backtrack(edge[0].right, structure);
+    // for MFE backtracking
+    if (best_only) {
+        vector<HEdge> edge = get_incoming_hedges(state, inv_n, true);
+        backtrack(edge[0].left, structure);
+        backtrack(edge[0].right, structure);
+    }
+    // for sampling mode backtracking
+    else {
+        vector<HEdge> edges = get_incoming_hedges(state, inv_ktn, false);
+        if (edges.size() == 0) return;
+
+        vector<value_type> weights;
+        for (auto &edge : edges) {
+            value_type val = Fast_Exp(edge.left->alpha + edge.weight + (edge.right ? edge.right->alpha : 0));
+            weights.push_back(val);
+        }
+
+        // sample an edge
+        discrete_distribution<> distribution(weights.begin(), weights.end());
+        int idx = distribution(*generator);
+
+        backtrack(edges[idx].left, structure, false, generator);
+        backtrack(edges[idx].right, structure, false, generator);
+    }
 }
 
 
@@ -79,7 +101,7 @@ vector<HEdge> BeamCKYParser::get_incoming_hedges(State *state, double multiplier
 
     auto update = [&incoming_edges, best_only] (float edge_weight, State *left, State *right = NULL) {
         if (best_only) {  // for backtrack
-            int value = edge_weight + left->alpha;
+            value_type value = edge_weight + left->alpha;
             if (right != NULL) value += right->alpha;
 
             if (value > incoming_edges[0].weight) {

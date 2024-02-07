@@ -471,14 +471,35 @@ void BeamCKYParser::parse_alifold(std::vector<std::string> &MSA, float **ribo, v
     BeamCKYParser::smart_gap = smart_gap;
 
     prepare(MSA.size(), MSA[0].length());
+
+    if (sampling_size > 0) {
+        partition_mode = true;
+    }
     
     if (partition_mode) {
         run_inside();
-        use_lazy_outside ? run_lazy_outside() : outside_alifold();
-        cal_PairProb(bestC[seq_length - 1]);
-        postprocess();
-        PairProb_MEA(MSA[0]);
-        threshknot();
+
+        if (sampling_size == 0) {
+            use_lazy_outside ? run_lazy_outside() : outside_alifold();
+            cal_PairProb(bestC[seq_length - 1]);
+            postprocess();
+            PairProb_MEA(MSA[0]);
+            threshknot();
+        }
+        else {
+            printf("Running sampling mode\n");
+            srand(std::chrono::system_clock::now().time_since_epoch().count());
+            bestC[seq_length - 1].set_attributes(0, seq_length - 1, TYPE_C);
+            default_random_engine generator(rand());
+
+            for (int i = 0; i < sampling_size; i++) {
+                // generate a sample structure
+                string structure(seq_length, '.');
+                backtrack(&bestC[seq_length - 1], structure, false, &generator);
+                printf("%s\n", structure.c_str());
+            }
+            postprocess();
+        }
     }
     else {
         run_inside();
@@ -504,6 +525,7 @@ BeamCKYParser::BeamCKYParser(
     float mea_gamma,
     float bpp_cutoff,
     float threshknot_threshold,
+    int sampling_size,
     string bpp_file_name,
     string mea_file_name,
     string threshknot_file_name
@@ -519,6 +541,7 @@ BeamCKYParser::BeamCKYParser(
     mea_gamma(mea_gamma),
     bpp_cutoff(bpp_cutoff),
     threshknot_threshold(threshknot_threshold),
+    sampling_size(sampling_size),
     bpp_file_name(bpp_file_name),
     mea_file_name(mea_file_name),
     threshknot_file_name(threshknot_file_name)
@@ -537,6 +560,7 @@ int main(int argc, char **argv) {
     bool is_verbose;
     bool multi_approx;
     bool use_lazy_outside;
+    int sampling_size;
 
     // output parameters
     string bpp_file_name;
@@ -550,22 +574,26 @@ int main(int argc, char **argv) {
     float threshknot_threshold;
     
     // partition mode parameter, if true, then partition function is calculated
-    bool partition_mode;
+    bool partition_mode;    
 
     if (argc >= 1) {
         beamsize = atoi(argv[1]);
         is_verbose = atoi(argv[2]) == 1;
         energy_model = atoi(argv[3]);
         multi_approx = atoi(argv[4]) == 1;
-        pscore_threshold = atoi(argv[5]);
-        pscore_beta = atof(argv[6]);
-        pscore_delta = atof(argv[7]);
-        partition_mode = atoi(argv[8]) == 1;
+        partition_mode = atoi(argv[5]) == 1;
+
+        pscore_threshold = atoi(argv[6]);
+        pscore_beta = atof(argv[7]);
+        pscore_delta = atof(argv[8]);
+        
         use_lazy_outside = atoi(argv[9]) == 1;
         threshknot_threshold = atof(argv[10]);
-        bpp_file_name = argv[11];
-        mea_file_name = argv[12];
-        threshknot_file_name = argv[13];
+        sampling_size = atoi(argv[11]);
+        
+        bpp_file_name = argv[12];
+        mea_file_name = argv[13];
+        threshknot_file_name = argv[14];
     }
 
     std::vector<std::string> MSA;
@@ -595,7 +623,8 @@ int main(int argc, char **argv) {
     vector<vector<int>> a2s_fast, s5_fast, s3_fast, SS_fast;
     a2s_prepare_is(MSA, n_seq, MSA_seq_length, a2s_fast, s5_fast, s3_fast, SS_fast, smart_gap);
 
-    BeamCKYParser parser(beamsize, is_verbose, multi_approx, partition_mode, use_lazy_outside, pscore_threshold, pscore_beta, pscore_delta, 3.0, std::numeric_limits<float>::min(), threshknot_threshold, bpp_file_name, mea_file_name, threshknot_file_name);
+    BeamCKYParser parser(beamsize, is_verbose, multi_approx, partition_mode, use_lazy_outside, pscore_threshold, pscore_beta, pscore_delta, 3.0, \
+                        std::numeric_limits<float>::min(), threshknot_threshold, sampling_size, bpp_file_name, mea_file_name, threshknot_file_name);
     parser.parse_alifold(MSA, ribo, a2s_fast, s5_fast, s3_fast, SS_fast, smart_gap);
 
     if (is_verbose) {
@@ -603,12 +632,14 @@ int main(int argc, char **argv) {
         printf("Energy Model: %d\n", energy_model);
         printf("Multi Approx: %d\n", parser.multi_approx);
         printf("Partition Mode: %d\n", parser.partition_mode);
+        printf("Sampling Mode: %d\n", parser.sampling_size > 0);
         printf("Use Lazy Outside: %d\n", parser.use_lazy_outside);
         
         printf("\nPairability-Score Threshold: %.2f\n", parser.pscore_threshold);
         printf("Pairability-Score Beta: %.2f\n", parser.pscore_beta);
         printf("Pairability-Score Delta: %.2f\n", parser.pscore_delta);
         printf("Threshknot Threshold: %.2f\n", parser.threshknot_threshold);
+        printf("Sampling Size: %d\n", parser.sampling_size);
 
         printf("\nBPP File Name: %s\n", parser.bpp_file_name.size() > 0 ? parser.bpp_file_name.c_str() : "None");
         printf("MEA File Name: %s\n", parser.mea_file_name.size() > 0 ? parser.mea_file_name.c_str() : "None");
