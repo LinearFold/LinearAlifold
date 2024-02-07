@@ -27,7 +27,7 @@ void BeamCKYParser::backtrack(State *state, string &structure, bool best_only, d
 
         vector<value_type> weights;
         for (auto &edge : edges) {
-            value_type val = Fast_Exp(edge.left->alpha + edge.weight + (edge.right ? edge.right->alpha : 0));
+            value_type val = Fast_Exp(edge.left->alpha + edge.weight + (edge.right ? edge.right->alpha : 0) - state->alpha);
             weights.push_back(val);
         }
 
