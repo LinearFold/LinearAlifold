@@ -21,7 +21,7 @@ make
 ```
 
 ## To Run
-(input: a Multiple Sequence Alignment (MSA)):
+Input: a Multiple Sequence Alignment (MSA):
 ```
 cat MSA_file | ./linearalifold [OPTIONS]
 ```
