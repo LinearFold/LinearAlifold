@@ -28,18 +28,18 @@ cat MSA_file | ./linearalifold [OPTIONS]
 
 ## Options   
     LinearAlifold Options:
-    (Optional)
-        -b,  --beam-size INT                 The beam size [default: 100]
-        -vb, --verbose                       Enable verbose mode to print out more information [default: False].
-        -em, --energy-model INT              Select the energy model. Choose between 1 (Vienna) or 2 (BL*) [default: 2].
-        -ct, --cutoff INT                    Set the conservation score cutoff threshold [default: -40].
-        -bt, --beta FLOAT                    Specify the beta value [default: 1.2].
-        -dt, --delta FLOAT                   Specify the delta value [default: 0.1].
-        -tt, --threshknot-threshold FLOAT    Set the threshknot threshold [default: 0.3].
-        -bf, --bpp-file STRING               Path to the bpp file. Outputs the base pair probability matrix if specified.
-        -mf, --mea-file STRING               Path to the mea file. Outputs the MEA structure if specified.
-        -tf, --threshknot-file STRING        Path to the threshknot file. Outputs the ThreshKnot structure if specified.
-        -pt, --partition                     Enable the partition mode.
+        -v,  --verbose                       Enable verbose mode to print out detailed information [default: False].
+        -b,  --beam INT                      Set the beam size [default: 100]. Beam size of 0 results in exact search.
+        -e,  --energy-model INT              Select the energy model. Choose between 1 (Vienna) or 2 (BL*) [default: 2].
+        -p,  --partition                     Enable partition mode to compute BPPs, MEA Structure, and Threshknot structure.
+        -s,  --sample INT                    Enable sampling mode and set the sample size [default: 0]. A value of 0 means sampling mode is off.
+        -c,  --cutoff INT                    Set the conservation score cutoff threshold [default: -40].
+        -y,  --beta FLOAT                    Specify the beta value [default: 1.2].
+        -z,  --delta FLOAT                   Specify the delta value [default: 0.1].
+        -t,  --threshknot-threshold FLOAT    Set the threshknot threshold [default: 0.3].
+        -B,  --bpp-file STRING               Path to the BPP file. Outputs the base pair probability matrix if specified.
+        -M,  --mea-file STRING               Path to the MEA file. Outputs the MEA structure if specified.
+        -T,  --threshknot-file STRING        Path to the Threshknot file. Outputs the ThreshKnot structure if specified.        
 
 ## Examples
 
@@ -65,6 +65,10 @@ MEA Structure:
 
 Threshknot Structure:
 ...((.(((((((((...........))))))))).))
+```
+
+### Sampling Mode: Computes the Stochastic Sampling of Structures
+To run LinearAlifold with the sampling mode, you can use the following command:
 ```
 
 ## Reference
