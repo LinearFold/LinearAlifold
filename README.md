@@ -62,13 +62,21 @@ Free Energy of Ensemble: -0.06 kcal/mol
 MEA Structure:
 ...((.(((((((((...........))))))))).))
 
-
 Threshknot Structure:
 ...((.(((((((((...........))))))))).))
 ```
 
 ### Sampling Mode: Computes the Stochastic Sampling of Structures
 To run LinearAlifold with the sampling mode, you can use the following command:
+```
+cat ./test_samples/sample07.fasta | ./linearalifold.py -s 5
+Free Energy of Ensemble: -0.06 kcal/mol
+Running sampling mode
+.(.(((((....(.(.....(...)))...))))).).
+...((.(((((((((..(.....)..))))))))).))
+...((.(((((...(...........)...))))).))
+...((.(((((((((.....(....)))))))))).))
+....(.(((((((((...........))))))))).).
 ```
 
 ## Reference
