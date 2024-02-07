@@ -46,7 +46,7 @@ cat MSA_file | ./linearalifold [OPTIONS]
 ### MFE Mode: Computes the Minimum Free Energy (MFE) Structure
 To run LinearAlifold with the MFE mode, you can use the following command:
 ```
-cat ./test_samples/sample01.fasta | ./linearalifold.py 
+cat ./test_samples/sample07.fasta | ./linearalifold.py 
 Minimum Free Energy: -6.82 kcal/mol
 
 MFE Structure: 
@@ -56,7 +56,7 @@ MFE Structure:
 ### Partition Mode: Computes both ThreshKnot and Maximum Expected Accuracy (MEA) Structures
 To run LinearAlifold with the partition mode, you can use the following command:
 ```
-cat ./test_samples/sample01.fasta | ./linearalifold.py -pt
+cat ./test_samples/sample07.fasta | ./linearalifold.py -pt
 Free Energy of Ensemble: -0.06 kcal/mol
 
 MEA Structure:
