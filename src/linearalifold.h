@@ -242,7 +242,7 @@ class BeamCKYParser {
     void output_to_file(string file_name, const char *type);
     void cal_PairProb(State &viterbi);
 
-    unordered_map<StateKey, vector<HEdge>, hash<StateKey>> state_hedges_cache;
+    google::dense_hash_map<StateKey, vector<HEdge>, hash<StateKey>> state_hedges_cache;
 
     
     string backtrace(const int i, const int j, const vector<vector<int>> &back_pointer, int *bp_num = NULL, double *etp = NULL);
