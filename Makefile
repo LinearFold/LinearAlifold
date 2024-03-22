@@ -1,6 +1,6 @@
 CC=g++
 # CFLAGS=-std=c++11
-CFLAGS=-std=c++11 -O3 -w
+CFLAGS=-std=c++11 -O3
 # CFLAGS += $(shell $(CC) -fopenmp -E - < /dev/null > /dev/null 2>&1 && echo "-fopenmp")
 # LDFLAGS += $(shell $(CC) -fopenmp -E - < /dev/null > /dev/null 2>&1 && echo "-fopenmp")
 

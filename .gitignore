@@ -5,6 +5,7 @@ __pycache__/
 bin/
 .venv/
 venv/
+eval/
 
 LinearAlifold/
 
@@ -17,3 +18,4 @@ outputs2/
 data/
 database/
 COVID_10_samples/
+other_programs/
