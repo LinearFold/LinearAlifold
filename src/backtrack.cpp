@@ -22,7 +22,12 @@ void BeamCKYParser::backtrack(State *state, string &structure, bool best_only, d
     }
     // for sampling mode backtracking
     else {
-        vector<HEdge> edges = get_incoming_hedges(state, inv_ktn, false);
+        StateKey state_key = StateKey(state->idx.first, state->idx.second, state->type);
+        if (state_hedges_cache.find(state_key) == state_hedges_cache.end()) {
+            state_hedges_cache[state_key] = get_incoming_hedges(state, inv_ktn, false);
+        }
+        vector<HEdge> edges = state_hedges_cache[state_key];
+
         if (edges.size() == 0) return;
 
         vector<value_type> weights;

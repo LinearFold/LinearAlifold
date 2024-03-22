@@ -445,7 +445,7 @@ void BeamCKYParser::threshknot() {
 
 
 
-void BeamCKYParser::PairProb_MEA(string &seq)
+void BeamCKYParser::get_mea(double gamma)
 {
     vector<vector<float>> OPT;
     OPT.resize(seq_length);
@@ -500,7 +500,7 @@ void BeamCKYParser::PairProb_MEA(string &seq)
                     temp_OPT_k1_j = OPT[k + 1][j];
                 else
                     temp_OPT_k1_j = value_type(0.);
-                auto temp_score = 2 * mea_gamma * Pij[i][k - (i + 1)] + OPT[i + 1][k - 1] + temp_OPT_k1_j;
+                auto temp_score = 2 * gamma * Pij[i][k - (i + 1)] + OPT[i + 1][k - 1] + temp_OPT_k1_j;
                 if (OPT[i][j] < temp_score)
                 {
                     OPT[i][j] = temp_score;
@@ -510,25 +510,25 @@ void BeamCKYParser::PairProb_MEA(string &seq)
         }
     }
 
-    auto structure = back_trace(0, seq_length - 1, back_pointer);
+    auto structure = backtrace(0, seq_length - 1, back_pointer);
 
     if (mea_file_name.size() > 0) {
-        FILE *fptr = fopen(mea_file_name.c_str(), "w");
+        FILE *fptr = fopen(mea_file_name.c_str(), "a");
         if (fptr == NULL)
         {
-            printf("Could not open file!\n");
+            printf("Could not open MEA file!\n");
             return;
         }
+        fprintf(fptr, "\nMEA Structure (gamma = %.2f):\n", gamma);
         fprintf(fptr, "%s\n\n", structure.c_str());
     } else {
-        printf("\nMEA Structure:\n");
+        printf("\nMEA Structure (gamma = %.2f):\n", gamma);
         printf("%s\n\n", structure.c_str());
     }
 }
 
-string BeamCKYParser::back_trace(const int i, const int j, const vector<vector<int>> &back_pointer)
+string BeamCKYParser::backtrace(const int i, const int j, const vector<vector<int>> &back_pointer, int *bp_num, double *etp)
 {
-
     if (i > j)
         return "";
     if (back_pointer[i][j] == -1)
@@ -536,7 +536,7 @@ string BeamCKYParser::back_trace(const int i, const int j, const vector<vector<i
         if (i == j)
             return ".";
         else
-            return "." + back_trace(i + 1, j, back_pointer);
+            return "." + backtrace(i + 1, j, back_pointer, bp_num, etp);
     }
     else if (back_pointer[i][j] != 0)
     {
@@ -546,11 +546,133 @@ string BeamCKYParser::back_trace(const int i, const int j, const vector<vector<i
         if (k == j)
             temp = "";
         else
-            temp = back_trace(k + 1, j, back_pointer);
-        return "(" + back_trace(i + 1, k - 1, back_pointer) + ")" + temp;
+            temp = backtrace(k + 1, j, back_pointer, bp_num, etp);
+
+        if (bp_num != NULL)
+            (*bp_num)++;
+        if (etp != NULL)
+            (*etp) += Pij[i][k - (i + 1)];
+            
+        return "(" + backtrace(i + 1, k - 1, back_pointer, bp_num, etp) + ")" + temp;
     }
-    assert(false);
+    else {
+        return "." + backtrace(i + 1, j, back_pointer, bp_num, etp);
+    }
+    // assert(false);
     return "";
+}
+
+
+
+double BeamCKYParser::get_centroid(bool maximize_pmcc) {
+    string best_structure = "";
+    double max_pmcc = 0.0;
+    double best_gamma = 0.0;
+
+    if (maximize_pmcc) {
+        double bpp_sum = 0.0;
+        for (int i = 0; i < seq_length; ++i)
+            for (int j = i + turn + 1; j < seq_length; ++j)
+                bpp_sum += Pij[i][j - (i + 1)];
+
+        vector<double> gamma_array;
+        for(int i = 1; i<=10; i++){
+            gamma_array.push_back(pow(2,i));
+            if(i==2) {
+                gamma_array.push_back(6);
+            }
+        }
+
+        for(int i = gamma_array.size() - 1 ; i >= 0 ; i--){
+            double gamma = gamma_array[i];
+            double bpp_threshold = 1 / (gamma + 1);
+
+            int num_of_bp = 0;
+            double etp = 0;
+            string structure = predict_centroid(gamma, &num_of_bp, &etp);
+
+            double etn = seq_length * ((seq_length - 1) / 2) - num_of_bp - bpp_sum + etp;
+            double efp = num_of_bp - etp;
+            double efn = bpp_sum - etp;
+
+            double pmcc = (etp * etn) - (efp * efn);
+            pmcc /= sqrt((etp + efp) * (etp + efn) * (etn + efp) * (etn + efn));
+
+            if (pmcc > max_pmcc){
+                best_structure = structure;
+                max_pmcc = pmcc;
+                best_gamma = gamma;
+            }
+        }
+    }
+    else {
+        best_gamma = mea_gamma;
+        best_structure = predict_centroid(mea_gamma);
+    }
+
+    if (centroid_file_name.size() > 0) {
+        FILE *fptr = fopen(centroid_file_name.c_str(), "w");
+        if (fptr == NULL)
+        {
+            printf("[ERROR] Could not open Centroid file!\n");
+            return -1;
+        }
+        if (maximize_pmcc)
+            fprintf(fptr, "Centroid Structure (pmcc = %.4f, gamma = %.2f):\n", max_pmcc, best_gamma);
+        else
+            fprintf(fptr, "Centroid Structure (gamma = %.2f):\n", mea_gamma);
+        fprintf(fptr, "%s\n\n", best_structure.c_str());
+    } else {
+        if (maximize_pmcc)
+            printf("Centroid Structure (pmcc = %.4f, gamma = %.2f):\n", max_pmcc, best_gamma);
+        else
+            printf("Centroid Structure (gamma = %.2f):\n", mea_gamma);
+        printf("%s\n\n", best_structure.c_str());
+    }
+
+    return best_gamma;
+}
+
+string BeamCKYParser::predict_centroid(double gamma, int* bp_num, double* etp) {
+    vector<vector<float>> dp_matrix(seq_length, vector<float>(seq_length, 0.0));
+    vector<vector<int>> back_pointer(seq_length, vector<int>(seq_length, 0));
+    vector<vector<int>> paired_base(seq_length);
+
+    double bpp_threshold = 1.0 / (gamma + 1);
+    for (int i = 0; i < seq_length; ++i) {
+        for (int j = i + turn + 1; j < seq_length; ++j) {
+            if (Pij[i][j - (i + 1)] > bpp_threshold) {
+                paired_base[i].push_back(j);
+            } else {
+                Pij[i][j - (i + 1)] = 0.0;
+            }
+        }
+    }
+
+    for (int i = 0; i < seq_length; ++i)
+        sort(paired_base[i].begin(), paired_base[i].end());
+
+    for (int l = turn + 1; l< seq_length; l++) {
+        for (int i = 0; i < seq_length - l; i++) {	  
+            int j = i + l;
+            dp_matrix[i][j] = dp_matrix[i + 1][j];
+            for (int k : paired_base[i]) {
+                if (k > j) break;
+                float score_kp1_j = 0.0;
+                if (k < j){
+                    score_kp1_j = dp_matrix[k+1][j];
+                }
+                float temp_score = (gamma + 1) * Pij[i][k - (i + 1)] - 1 + dp_matrix[i + 1][k - 1] + score_kp1_j;
+                if (dp_matrix[i][j] < temp_score){
+                    dp_matrix[i][j] = temp_score; 
+                    back_pointer[i][j] = k;
+                }
+            }
+        }
+    }
+
+    string structure = backtrace(0, seq_length - 1, back_pointer, bp_num, etp);
+    return structure;
 }
 
 

@@ -139,6 +139,35 @@ struct State {
 // lazy outside ------------------------------------------------------------------------------------------------------------------------------------------------
 // typedef google::dense_hash_map<int, State> *mypointer;
 
+
+struct StateKey {
+    int i, j;
+    Type type;
+    StateKey(int i, int j, Type type) : i(i), j(j), type(type){};
+    bool operator==(const StateKey &other) const {
+        return (i == other.i && j == other.j && type == other.type);
+    }
+};
+
+template <>
+struct hash<StateKey> {
+    std::size_t operator()(const StateKey& key) const {
+        const std::size_t prime = 31; // A prime number for hash combination
+        size_t res = 0;
+
+        // Hash individual fields
+        auto hash_i = std::hash<int>()(key.i);
+        auto hash_j = std::hash<int>()(key.j);
+        auto hash_type = std::hash<Type>()(key.type); // Ensure Type is hashable
+
+        // Combine the hashes, taking into account the relationship i < j
+        res = hash_i ^ (hash_j << 1); // Shift j's hash to ensure distinctiveness given i < j
+        res = res * prime + hash_type;
+
+        return res;
+    }
+};
+
 // unified hyperedge
 struct HEdge {
     State *left = NULL, *right = NULL; // right=null <=> Edge
@@ -165,14 +194,15 @@ class BeamCKYParser {
         float pscore_threshold = -40,
         float pscore_beta = 1.0,
         float pscore_delta = 1.0,
-        float mea_gamma = 3.0,
-        float bpp_cutoff = std::numeric_limits<float>::min(),
+        float mea_gamma = 2.0,
+        float bpp_cutoff = 0.0,
         float threshknot_threshold = 0.3,
         int sampling_size = 0,
         string bpp_file_name = "",
         string mea_file_name = "",
-        string threshknot_file_name = ""
-        );
+        string threshknot_file_name = "",
+        string centroid_file_name = ""
+    );
 
     int beam;
     int seq_length;
@@ -180,9 +210,10 @@ class BeamCKYParser {
     string bpp_file_name;
     string mea_file_name;
     string threshknot_file_name;
+    string centroid_file_name;
 
     float bpp_cutoff = 0.0;
-    float mea_gamma = 3.0;
+    float mea_gamma = 2.0;
     float pscore_beta = 1.0;
     float pscore_delta = 1.0;
     float pscore_threshold = -40;
@@ -210,8 +241,17 @@ class BeamCKYParser {
     vector<vector<double>> Pij;
     void output_to_file(string file_name, const char *type);
     void cal_PairProb(State &viterbi);
-    string back_trace(const int i, const int j, const vector<vector<int>> &back_pointer);
-    void PairProb_MEA(string &seq);
+
+    unordered_map<StateKey, vector<HEdge>, hash<StateKey>> state_hedges_cache;
+
+    
+    string backtrace(const int i, const int j, const vector<vector<int>> &back_pointer, int *bp_num = NULL, double *etp = NULL);
+    void get_mea(double gamma);
+
+    // centroid prediction methods
+    double get_centroid(bool maximize_pmcc=true);
+    string predict_centroid(double gamma, int* bp_num = NULL, double* etp = NULL);
+
     void postprocess();
 
 

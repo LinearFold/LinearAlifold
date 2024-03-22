@@ -483,8 +483,9 @@ void BeamCKYParser::parse_alifold(std::vector<std::string> &MSA, float **ribo, v
             use_lazy_outside ? run_lazy_outside() : outside_alifold();
             cal_PairProb(bestC[seq_length - 1]);
             postprocess();
-            PairProb_MEA(MSA[0]);
             threshknot();
+            double best_gamma = get_centroid(mea_gamma <= 0);
+            get_mea(best_gamma);
         }
         else {
             printf("Running sampling mode\n");
@@ -528,7 +529,8 @@ BeamCKYParser::BeamCKYParser(
     int sampling_size,
     string bpp_file_name,
     string mea_file_name,
-    string threshknot_file_name
+    string threshknot_file_name,
+    string centroid_file_name
     ): 
     beam(beam_size),
     is_verbose(verbose),
@@ -544,7 +546,8 @@ BeamCKYParser::BeamCKYParser(
     sampling_size(sampling_size),
     bpp_file_name(bpp_file_name),
     mea_file_name(mea_file_name),
-    threshknot_file_name(threshknot_file_name)
+    threshknot_file_name(threshknot_file_name),
+    centroid_file_name(centroid_file_name)
     {
         initialize();
     }
@@ -566,11 +569,13 @@ int main(int argc, char **argv) {
     string bpp_file_name;
     string mea_file_name;
     string threshknot_file_name;
+    string centroid_file_name;
     
     // pairability score parameters
     float pscore_beta;
     float pscore_delta;
     float pscore_threshold;
+    float mea_gamma;
     float threshknot_threshold;
     
     // partition mode parameter, if true, then partition function is calculated
@@ -586,14 +591,16 @@ int main(int argc, char **argv) {
         pscore_threshold = atoi(argv[6]);
         pscore_beta = atof(argv[7]);
         pscore_delta = atof(argv[8]);
+        mea_gamma = atof(argv[9]);
         
-        use_lazy_outside = atoi(argv[9]) == 1;
-        threshknot_threshold = atof(argv[10]);
-        sampling_size = atoi(argv[11]);
+        use_lazy_outside = atoi(argv[10]) == 1;
+        threshknot_threshold = atof(argv[11]);
+        sampling_size = atoi(argv[12]);
         
-        bpp_file_name = argv[12];
-        mea_file_name = argv[13];
-        threshknot_file_name = argv[14];
+        bpp_file_name = argv[13];
+        mea_file_name = argv[14];
+        threshknot_file_name = argv[15];
+        centroid_file_name = argv[16];
     }
 
     std::vector<std::string> MSA;
@@ -623,8 +630,8 @@ int main(int argc, char **argv) {
     vector<vector<int>> a2s_fast, s5_fast, s3_fast, SS_fast;
     a2s_prepare_is(MSA, n_seq, MSA_seq_length, a2s_fast, s5_fast, s3_fast, SS_fast, smart_gap);
 
-    BeamCKYParser parser(beamsize, is_verbose, multi_approx, partition_mode, use_lazy_outside, pscore_threshold, pscore_beta, pscore_delta, 3.0, \
-                        std::numeric_limits<float>::min(), threshknot_threshold, sampling_size, bpp_file_name, mea_file_name, threshknot_file_name);
+    BeamCKYParser parser(beamsize, is_verbose, multi_approx, partition_mode, use_lazy_outside, pscore_threshold, pscore_beta, pscore_delta, mea_gamma, \
+                        std::numeric_limits<float>::min(), threshknot_threshold, sampling_size, bpp_file_name, mea_file_name, threshknot_file_name, centroid_file_name);
     parser.parse_alifold(MSA, ribo, a2s_fast, s5_fast, s3_fast, SS_fast, smart_gap);
 
     if (is_verbose) {
@@ -639,11 +646,13 @@ int main(int argc, char **argv) {
         printf("Pairability-Score Beta: %.2f\n", parser.pscore_beta);
         printf("Pairability-Score Delta: %.2f\n", parser.pscore_delta);
         printf("Threshknot Threshold: %.2f\n", parser.threshknot_threshold);
+        printf("MEA Gamma: %.2f\n", parser.mea_gamma);
         printf("Sampling Size: %d\n", parser.sampling_size);
 
         printf("\nBPP File Name: %s\n", parser.bpp_file_name.size() > 0 ? parser.bpp_file_name.c_str() : "None");
         printf("MEA File Name: %s\n", parser.mea_file_name.size() > 0 ? parser.mea_file_name.c_str() : "None");
         printf("Threshknot File Name: %s\n", parser.threshknot_file_name.size() > 0 ? parser.threshknot_file_name.c_str() : "None");
+        printf("Centroid File Name: %s\n", parser.centroid_file_name.size() > 0 ? parser.centroid_file_name.c_str() : "None");
     }
     return 0;
 }
