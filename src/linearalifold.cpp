@@ -10,6 +10,7 @@
 #include <sys/time.h>
 #include <tuple>
 #include <unordered_map>
+#include <chrono>
 
 #include "linearalifold.h"
 #include "utils/ribo.h"
