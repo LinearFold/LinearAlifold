@@ -3,7 +3,7 @@ This directory contains the evaluation scripts (Structural Distance and Ensemble
 
 ## Data
 The dataset contains the reference sequence, SARS-CoV-2 variants (Alpha, Beta, Delta, and Omicron), and SARS-related genomes.
-The table below shows the number of genomes for each $k$ (number of sequences in the MSA). You can find the dataset in the [/data/v1/](./data/v1/) directory.
+The table below shows the number of genomes for each $k$ (number of sequences in the MSA). You can find the dataset in the [/data/v1/](./covid/data/v1/) directory.
 
 **Table: SARS-CoV-2 and SARS-related datasets. Ref is the SARS-CoV-2 reference sequence, Alpha–Delta are the SARS-CoV-2 variants, and SARSr are SARS-related genomes.**
 | k   | Ref | Alpha | Beta | Delta | Omicron | SARSr |
