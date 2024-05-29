@@ -2,7 +2,8 @@
 This directory contains the evaluation scripts (Structural Distance and Ensemble Defect) and data for SARS-CoV-2 and diverse SARS-related genomes.
 
 ## Data
-We prepared a dataset to draw representative samples of diverse SARS-CoV-2 and SARS-related genomes. The details of the dataset are as follows:
+The dataset contains the reference sequence, SARS-CoV-2 variants (Alpha, Beta, Delta, and Omicron), and SARS-related genomes.
+The table below shows the number of genomes for each $k$ (number of sequences in the MSA). You can find the dataset in the [/data/v1/](./data/v1/) directory.
 
 **Table: SARS-CoV-2 and SARS-related datasets. Ref is the SARS-CoV-2 reference sequence, Alpha–Delta are the SARS-CoV-2 variants, and SARSr are SARS-related genomes.**
 | k   | Ref | Alpha | Beta | Delta | Omicron | SARSr |
@@ -14,8 +15,6 @@ We prepared a dataset to draw representative samples of diverse SARS-CoV-2 and S
 | 200 | 1   | 33    | 33   | 33    | 20      | 80    |
 | 300 | 1   | 59    | 60   | 40    | 20      | 120   |
 | 400 | 1   | 79    | 80   | 60    | 20      | 160   |
-
-Here's the link to the dataset directory: [covid/data/v1/](./data/v1/)
 
 ## Hybrid Reference Structure
 To get the hybrid reference structure, we combined the experimentally guided structures from Huston et al. and the experimentally determined end-to-end pairs (Arch3, ranges from (60,29868) to (80,29847)) from Ziv et al. by the following steps:
