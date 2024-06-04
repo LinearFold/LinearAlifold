@@ -36,6 +36,7 @@ cat MSA_file | ./linearalifold [OPTIONS]
         -c,  --cutoff INT                    Set the conservation score cutoff threshold [default: -40].
         -y,  --beta FLOAT                    Specify the beta value [default: 1.2].
         -z,  --delta FLOAT                   Specify the delta value [default: 0.1].
+        -g   --gamma FLOAT                   Specify the gamma value for MEA and Centroid Structures [default: 2].
         -t,  --threshknot-threshold FLOAT    Set the threshknot threshold [default: 0.3].
         -B,  --bpp-file STRING               Path to the BPP file. Outputs the base pair probability matrix if specified.
         -M,  --mea-file STRING               Path to the MEA file. Outputs the MEA structure if specified.
@@ -46,30 +47,33 @@ cat MSA_file | ./linearalifold [OPTIONS]
 ### MFE Mode: Computes the Minimum Free Energy (MFE) Structure
 To run LinearAlifold with the MFE mode, you can use the following command:
 ```
-cat ./test_samples/sample07.fasta | ./linearalifold.py 
+cat ./eval/test_samples/sample07.fasta | ./linearalifold.py 
 Minimum Free Energy: -6.82 kcal/mol
 
 MFE Structure: 
 ...((.(((((((((...........))))))))).)) (-6.82 = -0.72 + -6.09)
 ```
 
-### Partition Mode: Computes both ThreshKnot and Maximum Expected Accuracy (MEA) Structures
+### Partition Mode: Computes ThreshKnot, Centroid, and Maximum Expected Accuracy (MEA) Structures
 To run LinearAlifold with the partition mode, you can use the following command:
 ```
-cat ./test_samples/sample07.fasta | ./linearalifold.py -p
+cat ./eval/test_samples/sample07.fasta | ./linearalifold.py -p
 Free Energy of Ensemble: -0.06 kcal/mol
 
-MEA Structure:
+Threshknot Structure:
 ...((.(((((((((...........))))))))).))
 
-Threshknot Structure:
+Centroid Structure (pmcc = 0.7560, gamma = 6.00):
+...((.(((((((((...........))))))))).))
+
+MEA Structure (gamma = 6.00):
 ...((.(((((((((...........))))))))).))
 ```
 
 ### Sampling Mode: Computes the Stochastic Sampling of Structures
 To run LinearAlifold with the sampling mode, you can use the following command:
 ```
-cat ./test_samples/sample07.fasta | ./linearalifold.py -s 5
+cat ./eval/test_samples/sample07.fasta | ./linearalifold.py -s 5
 Free Energy of Ensemble: -0.06 kcal/mol
 Running sampling mode
 ...((.(((((((....(.....)....))))))).))
