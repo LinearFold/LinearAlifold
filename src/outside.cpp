@@ -519,11 +519,11 @@ void BeamCKYParser::get_mea(double gamma)
             printf("Could not open MEA file!\n");
             return;
         }
-        fprintf(fptr, "\nMEA Structure (gamma = %.2f):\n", gamma);
-        fprintf(fptr, "%s\n\n", structure.c_str());
+        fprintf(fptr, "MEA Structure (gamma = %.2f):\n", gamma);
+        fprintf(fptr, "%s\n", structure.c_str());
     } else {
-        printf("\nMEA Structure (gamma = %.2f):\n", gamma);
-        printf("%s\n\n", structure.c_str());
+        printf("MEA Structure (gamma = %.2f):\n", gamma);
+        printf("%s\n", structure.c_str());
     }
 }
 

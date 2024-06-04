@@ -85,6 +85,14 @@ enum Type { // reverse topological order
     TYPE_MULTI = 4,
     TYPE_MAX = 5,
 };
+namespace std {
+    template <>
+    struct hash<Type> {
+        std::size_t operator()(const Type& t) const {
+            return std::hash<int>()(static_cast<int>(t));
+        }
+    };
+}
 
 struct State {
     value_type alpha; // inside score
