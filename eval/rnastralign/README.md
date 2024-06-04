@@ -17,6 +17,6 @@ Four families (Group I Intron, tmRNA, tRNA, and 5S rRNA) are used for parameter 
 | 16S RNA    | Alphaproteobacteria |         1419.2 |               0.85 |
 
 There are two versions of the data, aligned version (all the homologs in the sample are aligned) and unaligned version:
-- Aligned Version: [data/aln/](./rnastralign/data/aln/)
-- Unaligned Version: [data/no-aln/](./rnastralign/data/no-aln/)
+- Aligned Version: [data/aln/](./data/aln/)
+- Unaligned Version: [data/no-aln/](./data/no-aln/)
 
