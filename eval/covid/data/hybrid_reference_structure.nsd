@@ -1,0 +1,1031 @@
+[
+  { Version:"1.0" Title:Untitled }
+  {
+    Title:""
+    Mode:Standard
+    Flip:false
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:A X:3006.0 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:2 Base:U X:3034.9 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:3 Base:U X:3063.7 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:4 Base:A X:3092.5 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:5 Base:A X:3121.4 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:6 Base:A X:3150.2 Y:6732.0 Fill:Gray Bond:Black }
+          { ID:7 Base:G X:3179.0 Y:6732.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:8 Base:G X:3179.0 Y:6714.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:9 Base:U X:3179.0 Y:6697.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:10 Base:U X:3179.0 Y:6680.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:11 Base:U X:3179.0 Y:6663.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:12 Base:A X:3159.7 Y:6627.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:13 Base:U X:3180.7 Y:6591.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:14 Base:A X:3180.7 Y:6574.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:15 Base:C X:3180.7 Y:6557.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:16 Base:C X:3180.7 Y:6540.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:17 Base:U X:3180.7 Y:6523.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:18 Base:U X:3174.0 Y:6501.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:19 Base:C X:3185.8 Y:6481.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:20 Base:C X:3208.0 Y:6481.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:21 Base:C X:3219.4 Y:6501.7 Fill:"#F9D693" Bond:Black }
+          { ID:22 Base:A X:3211.9 Y:6523.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:23 Base:G X:3211.9 Y:6540.9 Fill:"#F9D693" Bond:Black }
+          { ID:24 Base:G X:3211.9 Y:6558.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:25 Base:U X:3211.9 Y:6575.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:26 Base:A X:3211.9 Y:6592.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:27 Base:A X:3227.3 Y:6611.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:28 Base:C X:3226.4 Y:6646.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:29 Base:A X:3210.3 Y:6663.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:30 Base:A X:3210.3 Y:6681.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:31 Base:A X:3210.3 Y:6698.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:32 Base:C X:3210.3 Y:6715.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:33 Base:C X:3210.3 Y:6732.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:34 Base:A X:3215.4 Y:6750.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:35 Base:A X:3224.4 Y:6766.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:36 Base:C X:3237.0 Y:6779.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:37 Base:C X:3252.3 Y:6789.5 Fill:"#F4AF40" Bond:Black }
+          { ID:38 Base:A X:3269.6 Y:6795.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:39 Base:A X:3287.8 Y:6797.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:40 Base:C X:3306.0 Y:6795.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:41 Base:U X:3323.1 Y:6788.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:42 Base:U X:3338.3 Y:6778.5 Fill:"#F6C263" Bond:Black }
+          { ID:43 Base:U X:3350.6 Y:6764.9 Fill:"#F6C263" Bond:Black }
+          { ID:44 Base:C X:3359.4 Y:6748.8 Fill:"#F4AF40" Bond:Black }
+          { ID:45 Base:G X:3364.2 Y:6731.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:46 Base:A X:3364.2 Y:6714.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:47 Base:U X:3364.2 Y:6696.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:48 Base:C X:3364.2 Y:6679.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:49 Base:U X:3364.2 Y:6662.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:50 Base:C X:3354.2 Y:6641.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:51 Base:U X:3359.7 Y:6619.6 Fill:"#F4AF40" Bond:Black }
+          { ID:52 Base:U X:3380.5 Y:6609.6 Fill:"#F4AF40" Bond:Black }
+          { ID:53 Base:G X:3400.6 Y:6620.3 Fill:"#F6C263" Bond:Black }
+          { ID:54 Base:U X:3405.8 Y:6642.8 Fill:"#F4AF40" Bond:Black }
+          { ID:55 Base:A X:3395.2 Y:6662.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:56 Base:G X:3395.2 Y:6679.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:57 Base:A X:3395.2 Y:6697.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:58 Base:U X:3395.2 Y:6714.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:59 Base:C X:3395.2 Y:6731.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:60 Base:U X:3434.7 Y:6730.4 Fill:"#F4AF40" Bond:Black }
+          { ID:61 Base:G X:3452.8 Y:6730.4 Fill:"#F9D693" Bond:Black }
+          { ID:62 Base:U X:3470.8 Y:6730.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:63 Base:U X:3488.8 Y:6730.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:64 Base:C X:3506.8 Y:6730.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:65 Base:U X:3524.9 Y:6730.4 Fill:"#F4AF40" Bond:Black }
+          { ID:66 Base:C X:3542.9 Y:6730.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:67 Base:U X:3560.9 Y:6730.4 Fill:"#F4AF40" Bond:Black }
+          { ID:68 Base:A X:3588.4 Y:6719.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:69 Base:A X:3615.1 Y:6731.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:70 Base:A X:3633.1 Y:6731.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:71 Base:C X:3660.5 Y:6720.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:72 Base:G X:3687.2 Y:6732.4 Fill:"#F4AF40" Bond:Black }
+          { ID:73 Base:A X:3705.3 Y:6732.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:74 Base:A X:3723.3 Y:6732.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:75 Base:C X:3777.4 Y:6733.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:76 Base:U X:3795.4 Y:6733.4 Fill:"#F6C263" Bond:Black }
+          { ID:77 Base:U X:3848.0 Y:6732.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:78 Base:U X:3866.0 Y:6732.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:79 Base:A X:3884.0 Y:6732.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:80 Base:A X:3902.1 Y:6732.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:81 Base:A X:3908.5 Y:6716.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:82 Base:A X:3925.0 Y:6713.9 Fill:"#F9D693" Bond:Black }
+          { ID:83 Base:U X:3943.3 Y:6714.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:84 Base:C X:3960.5 Y:6730.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:85 Base:U X:3960.5 Y:6713.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:86 Base:G X:3960.5 Y:6696.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:87 Base:U X:3960.5 Y:6679.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:88 Base:G X:3960.5 Y:6662.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:89 Base:U X:3960.5 Y:6645.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:90 Base:G X:3960.5 Y:6628.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:91 Base:G X:3960.5 Y:6611.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:92 Base:C X:3947.8 Y:6584.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:93 Base:U X:3959.8 Y:6556.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:94 Base:G X:3959.8 Y:6539.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:95 Base:U X:3947.1 Y:6513.0 Fill:"#F6C263" Bond:Black }
+          { ID:96 Base:C X:3959.1 Y:6485.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:97 Base:A X:3959.1 Y:6468.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:98 Base:C X:3959.1 Y:6451.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:99 Base:U X:3959.1 Y:6434.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:100 Base:C X:3947.1 Y:6406.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:101 Base:G X:3958.4 Y:6380.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:102 Base:G X:3958.4 Y:6363.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:103 Base:C X:3958.4 Y:6346.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:104 Base:U X:3947.8 Y:6325.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:105 Base:G X:3952.7 Y:6303.7 Fill:"#F4AF40" Bond:Black }
+          { ID:106 Base:C X:3973.2 Y:6293.1 Fill:"#F4AF40" Bond:Black }
+          { ID:107 Base:A X:3994.4 Y:6303.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:108 Base:U X:3998.7 Y:6325.6 Fill:"#F4AF40" Bond:Black }
+          { ID:109 Base:G X:3989.5 Y:6346.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:110 Base:C X:3989.5 Y:6363.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:111 Base:U X:3989.5 Y:6380.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:112 Base:U X:4000.8 Y:6406.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:113 Base:A X:3990.2 Y:6434.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:114 Base:G X:3990.2 Y:6451.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:115 Base:U X:3990.2 Y:6468.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:116 Base:G X:3990.2 Y:6485.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:117 Base:C X:3990.9 Y:6539.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:118 Base:A X:3990.9 Y:6556.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:119 Base:C X:4002.2 Y:6583.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:120 Base:U X:3991.6 Y:6611.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:121 Base:C X:3991.6 Y:6628.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:122 Base:A X:3991.6 Y:6645.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:123 Base:C X:3992.7 Y:6661.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:124 Base:G X:3991.6 Y:6679.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:125 Base:C X:3991.6 Y:6696.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:126 Base:A X:3991.6 Y:6713.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:127 Base:G X:3991.6 Y:6730.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:128 Base:U X:4005.8 Y:6723.8 Fill:"#F4AF40" Bond:Black }
+          { ID:129 Base:A X:4020.8 Y:6719.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:130 Base:U X:4036.1 Y:6717.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:131 Base:A X:4051.7 Y:6717.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:132 Base:A X:4067.1 Y:6719.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:133 Base:U X:4082.1 Y:6723.1 Fill:"#F4AF40" Bond:Black }
+          { ID:134 Base:U X:4096.5 Y:6729.0 Fill:"#F4AF40" Bond:Black }
+          { ID:135 Base:A X:4096.5 Y:6711.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:136 Base:A X:4096.5 Y:6694.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:137 Base:U X:4096.5 Y:6676.6 Fill:"#F6C263" Bond:Black }
+          { ID:138 Base:A X:4085.5 Y:6656.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:139 Base:A X:4090.8 Y:6633.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:140 Base:C X:4111.7 Y:6623.9 Fill:"#F9D693" Bond:Black }
+          { ID:141 Base:U X:4132.5 Y:6634.0 Fill:"#F4AF40" Bond:Black }
+          { ID:142 Base:A X:4137.5 Y:6656.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:143 Base:A X:4127.9 Y:6676.7 Fill:"#FBEAC8" Bond:Black }
+          { ID:144 Base:U X:4127.9 Y:6694.2 Fill:"#F9D693" Bond:Black }
+          { ID:145 Base:U X:4127.9 Y:6711.7 Fill:"#F6C263" Bond:Black }
+          { ID:146 Base:A X:4127.9 Y:6729.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:147 Base:C X:4147.9 Y:6717.3 Fill:"#F6C263" Bond:Black }
+          { ID:148 Base:U X:4166.7 Y:6713.2 Fill:"#F9D693" Bond:Black }
+          { ID:149 Base:G X:4184.2 Y:6717.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:150 Base:U X:4204.9 Y:6730.2 Fill:"#FEF8EC" Bond:Black NumOffset:-1.1201186 }
+          { ID:151 Base:C X:4204.9 Y:6712.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:152 Base:G X:4204.9 Y:6694.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:153 Base:U X:4204.9 Y:6676.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:154 Base:U X:4204.9 Y:6658.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:155 Base:G X:4204.9 Y:6640.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:156 Base:A X:4204.9 Y:6622.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:157 Base:C X:4204.9 Y:6531.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:158 Base:A X:4204.9 Y:6513.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:159 Base:G X:4204.9 Y:6495.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:160 Base:G X:4204.9 Y:6477.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:161 Base:A X:4189.0 Y:6460.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:162 Base:C X:4188.9 Y:6423.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:163 Base:A X:4204.9 Y:6405.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:164 Base:C X:4204.9 Y:6387.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:165 Base:G X:4204.9 Y:6369.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:166 Base:A X:4204.9 Y:6351.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:167 Base:G X:4204.9 Y:6333.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:168 Base:U X:4188.2 Y:6320.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:169 Base:A X:4175.4 Y:6288.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:170 Base:A X:4188.6 Y:6256.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:171 Base:C X:4204.9 Y:6243.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:172 Base:U X:4204.9 Y:6225.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:173 Base:C X:4204.9 Y:6207.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:174 Base:G X:4193.4 Y:6181.0 Fill:"#F4AF40" Bond:Black }
+          { ID:175 Base:U X:4204.9 Y:6153.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:176 Base:C X:4204.9 Y:6135.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:177 Base:U X:4204.9 Y:6117.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:178 Base:A X:4204.9 Y:6099.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:179 Base:U X:4204.9 Y:6081.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:180 Base:C X:4204.9 Y:6063.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:181 Base:U X:4204.9 Y:6045.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:182 Base:U X:4204.9 Y:6027.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:183 Base:C X:4179.4 Y:6012.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:184 Base:U X:4161.3 Y:6012.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:185 Base:G X:4143.3 Y:6012.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:186 Base:C X:4108.6 Y:6059.6 Fill:"#F4AF40" Bond:Black }
+          { ID:187 Base:A X:4036.5 Y:6060.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:188 Base:G X:4000.0 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:189 Base:G X:3981.9 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:190 Base:C X:3963.9 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:191 Base:U X:3945.9 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:192 Base:G X:3927.9 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:193 Base:C X:3909.8 Y:6014.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:194 Base:U X:3874.6 Y:6035.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:195 Base:U X:3837.6 Y:6016.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:196 Base:A X:3819.6 Y:6016.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:197 Base:C X:3801.6 Y:6016.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:198 Base:G X:3783.5 Y:6016.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:199 Base:G X:3765.5 Y:6016.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:200 Base:U X:3747.7 Y:6029.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:201 Base:U X:3724.7 Y:6030.3 Fill:"#F4AF40" Bond:Black }
+          { ID:202 Base:U X:3707.5 Y:6014.3 Fill:"#F4AF40" Bond:Black }
+          { ID:203 Base:C X:3707.8 Y:5991.3 Fill:"#F4AF40" Bond:Black }
+          { ID:204 Base:G X:3723.8 Y:5974.2 Fill:"#F9D693" Bond:Black }
+          { ID:205 Base:U X:3746.9 Y:5973.4 Fill:"#F4AF40" Bond:Black }
+          { ID:206 Base:C X:3765.2 Y:5985.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:207 Base:C X:3783.2 Y:5985.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:208 Base:G X:3801.3 Y:5985.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:209 Base:U X:3819.3 Y:5985.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:210 Base:G X:3837.3 Y:5985.5 Fill:"#F9D693" Bond:Black }
+          { ID:211 Base:U X:3855.2 Y:5969.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:212 Base:U X:3891.4 Y:5968.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:213 Base:G X:3909.6 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:214 Base:C X:3927.6 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:215 Base:A X:3945.6 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:216 Base:G X:3963.6 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:217 Base:C X:3981.7 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:218 Base:C X:3999.7 Y:5983.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:219 Base:G X:4006.6 Y:5966.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:220 Base:A X:4026.0 Y:5941.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:221 Base:U X:4054.9 Y:5927.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:222 Base:C X:4086.9 Y:5927.2 Fill:"#F6C263" Bond:Black }
+          { ID:223 Base:A X:4116.2 Y:5940.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:224 Base:U X:4136.9 Y:5966.1 Fill:"#F4AF40" Bond:Black }
+          { ID:225 Base:C X:4144.0 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:226 Base:A X:4162.1 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:227 Base:G X:4180.1 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:228 Base:C X:4204.8 Y:5967.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:229 Base:A X:4204.8 Y:5950.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:230 Base:C X:4204.8 Y:5932.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:231 Base:A X:4204.8 Y:5915.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:232 Base:U X:4204.8 Y:5898.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:233 Base:C X:4204.8 Y:5881.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:234 Base:U X:4204.8 Y:5863.9 Fill:"#F4AF40" Bond:Black }
+          { ID:235 Base:A X:4194.0 Y:5837.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:236 Base:G X:4205.4 Y:5809.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:237 Base:G X:4205.4 Y:5792.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:238 Base:U X:4193.1 Y:5774.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:239 Base:U X:4194.0 Y:5751.0 Fill:"#F4AF40" Bond:Black }
+          { ID:240 Base:U X:4210.6 Y:5735.9 Fill:"#F6C263" Bond:Black }
+          { ID:241 Base:C X:4233.9 Y:5735.8 Fill:"#F4AF40" Bond:Black }
+          { ID:242 Base:G X:4250.1 Y:5752.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:243 Base:U X:4249.1 Y:5775.8 Fill:"#F9D693" Bond:Black }
+          { ID:244 Base:C X:4237.0 Y:5793.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:245 Base:C X:4237.0 Y:5810.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:246 Base:G X:4236.3 Y:5864.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:247 Base:G X:4236.3 Y:5881.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:248 Base:G X:4236.3 Y:5898.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:249 Base:U X:4236.3 Y:5916.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:250 Base:G X:4236.3 Y:5933.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:251 Base:U X:4236.3 Y:5950.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:252 Base:G X:4236.3 Y:5968.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:253 Base:A X:4261.0 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:254 Base:C X:4278.8 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:255 Base:C X:4296.5 Y:5981.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:256 Base:G X:4318.5 Y:5975.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:257 Base:A X:4337.7 Y:5987.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:258 Base:A X:4337.2 Y:6010.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:259 Base:A X:4316.3 Y:6020.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:260 Base:G X:4295.1 Y:6012.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:261 Base:G X:4277.3 Y:6012.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:262 Base:U X:4259.6 Y:6012.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:263 Base:A X:4236.0 Y:6027.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:264 Base:A X:4236.0 Y:6045.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:265 Base:G X:4236.0 Y:6063.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:266 Base:A X:4236.0 Y:6081.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:267 Base:U X:4236.0 Y:6099.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:268 Base:G X:4236.0 Y:6117.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:269 Base:G X:4236.0 Y:6135.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:270 Base:A X:4236.0 Y:6153.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:271 Base:G X:4236.0 Y:6207.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:272 Base:A X:4236.0 Y:6225.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:273 Base:G X:4236.0 Y:6243.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:274 Base:C X:4265.6 Y:6289.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:275 Base:C X:4235.9 Y:6332.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:276 Base:U X:4235.9 Y:6350.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:277 Base:U X:4235.9 Y:6368.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:278 Base:G X:4235.9 Y:6387.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:279 Base:U X:4235.9 Y:6405.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:280 Base:C X:4257.0 Y:6441.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:281 Base:C X:4235.9 Y:6477.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:282 Base:C X:4235.9 Y:6495.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:283 Base:U X:4235.9 Y:6513.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:284 Base:G X:4235.9 Y:6531.2 Fill:"#F9D693" Bond:Black }
+          { ID:285 Base:G X:4252.8 Y:6546.3 Fill:"#F4AF40" Bond:Black }
+          { ID:286 Base:U X:4265.6 Y:6577.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:287 Base:U X:4252.3 Y:6609.4 Fill:"#F4AF40" Bond:Black }
+          { ID:288 Base:U X:4236.0 Y:6622.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:289 Base:C X:4236.0 Y:6640.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:290 Base:A X:4236.0 Y:6658.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:291 Base:A X:4236.0 Y:6676.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:292 Base:C X:4236.0 Y:6694.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:293 Base:G X:4236.0 Y:6712.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:294 Base:A X:4236.0 Y:6730.5 Fill:"#F4AF40" Bond:Black }
+          { ID:295 Base:G X:4257.9 Y:6718.5 Fill:"#F4AF40" Bond:Black }
+          { ID:296 Base:A X:4281.3 Y:6709.6 Fill:"#F4AF40" Bond:Black }
+          { ID:297 Base:A X:4305.7 Y:6704.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:298 Base:A X:4330.6 Y:6702.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:299 Base:A X:4355.5 Y:6703.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:300 Base:C X:4380.1 Y:6708.4 Fill:"#F9D693" Bond:Black }
+          { ID:301 Base:A X:4403.7 Y:6716.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:302 Base:C X:4425.9 Y:6728.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:303 Base:A X:4425.9 Y:6710.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:304 Base:C X:4425.9 Y:6692.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:305 Base:G X:4425.9 Y:6674.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:306 Base:U X:4425.9 Y:6657.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:307 Base:C X:4425.9 Y:6639.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:308 Base:C X:4394.8 Y:6636.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:309 Base:A X:4365.8 Y:6624.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:310 Base:A X:4340.7 Y:6606.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:311 Base:C X:4321.4 Y:6581.6 Fill:"#F9D693" Bond:Black }
+          { ID:312 Base:U X:4309.2 Y:6552.8 Fill:"#F4AF40" Bond:Black }
+          { ID:313 Base:C X:4304.9 Y:6521.9 Fill:"#F4AF40" Bond:Black }
+          { ID:314 Base:A X:4308.9 Y:6490.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:315 Base:G X:4320.9 Y:6462.1 Fill:"#F6C263" Bond:Black }
+          { ID:316 Base:U X:4340.0 Y:6437.4 Fill:"#F4AF40" Bond:Black }
+          { ID:317 Base:U X:4364.9 Y:6418.5 Fill:"#F4AF40" Bond:Black }
+          { ID:318 Base:U X:4393.9 Y:6406.9 Fill:"#F4AF40" Bond:Black }
+          { ID:319 Base:G X:4424.9 Y:6403.2 Fill:"#F6C263" Bond:Black }
+          { ID:320 Base:C X:4424.9 Y:6385.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:321 Base:C X:4424.9 Y:6367.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:322 Base:U X:4424.9 Y:6350.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:323 Base:G X:4424.9 Y:6332.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:324 Base:U X:4424.9 Y:6314.8 Fill:"#F9D693" Bond:Black }
+          { ID:325 Base:U X:4422.6 Y:6290.8 Fill:"#F4AF40" Bond:Black }
+          { ID:326 Base:U X:4441.2 Y:6278.0 Fill:"#F4AF40" Bond:Black }
+          { ID:327 Base:U X:4458.7 Y:6291.5 Fill:"#F4AF40" Bond:Black }
+          { ID:328 Base:A X:4456.1 Y:6314.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:329 Base:C X:4456.1 Y:6332.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:330 Base:A X:4456.1 Y:6350.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:331 Base:G X:4456.1 Y:6368.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:332 Base:G X:4456.1 Y:6385.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:333 Base:U X:4456.1 Y:6403.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:334 Base:U X:4510.1 Y:6426.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:335 Base:C X:4552.7 Y:6484.5 Fill:"#F4AF40" Bond:Black }
+          { ID:336 Base:G X:4553.5 Y:6557.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:337 Base:C X:4510.6 Y:6617.1 Fill:"#F4AF40" Bond:Black }
+          { ID:338 Base:G X:4456.3 Y:6639.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:339 Base:A X:4456.3 Y:6656.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:340 Base:C X:4456.3 Y:6674.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:341 Base:G X:4456.3 Y:6692.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:342 Base:U X:4456.3 Y:6709.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:343 Base:G X:4456.3 Y:6727.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:344 Base:C X:4479.8 Y:6707.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:345 Base:U X:4507.9 Y:6695.1 Fill:"#F4AF40" Bond:Black }
+          { ID:346 Base:C X:4538.3 Y:6690.7 Fill:"#F4AF40" Bond:Black }
+          { ID:347 Base:G X:4571.0 Y:6694.7 Fill:"#F4AF40" Bond:Black }
+          { ID:348 Base:U X:4598.3 Y:6711.9 Fill:"#F4AF40" Bond:Black }
+          { ID:349 Base:A X:4620.8 Y:6726.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:350 Base:C X:4620.8 Y:6709.0 Fill:"#FEF8EC" Bond:Black NumOffset:0.758397 }
+          { ID:351 Base:G X:4620.8 Y:6691.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:352 Base:U X:4620.8 Y:6674.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:353 Base:G X:4620.8 Y:6656.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:354 Base:G X:4610.5 Y:6630.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:355 Base:C X:4621.6 Y:6602.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:356 Base:U X:4621.6 Y:6584.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:357 Base:U X:4621.6 Y:6567.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:358 Base:U X:4621.6 Y:6550.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:359 Base:G X:4621.6 Y:6532.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:360 Base:G X:4622.4 Y:6460.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:361 Base:A X:4622.4 Y:6443.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:362 Base:G X:4622.4 Y:6425.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:363 Base:A X:4622.4 Y:6408.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:364 Base:C X:4622.8 Y:6355.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:365 Base:U X:4622.8 Y:6337.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:366 Base:C X:4622.8 Y:6320.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:367 Base:C X:4622.8 Y:6302.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:368 Base:G X:4612.8 Y:6283.1 Fill:"#F9D693" Bond:Black }
+          { ID:369 Base:U X:4618.4 Y:6260.5 Fill:"#F4AF40" Bond:Black }
+          { ID:370 Base:G X:4638.9 Y:6250.9 Fill:"#F4AF40" Bond:Black }
+          { ID:371 Base:G X:4659.6 Y:6261.0 Fill:"#F4AF40" Bond:Black }
+          { ID:372 Base:A X:4664.3 Y:6282.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:373 Base:G X:4654.2 Y:6303.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:374 Base:G X:4654.2 Y:6320.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:375 Base:A X:4654.2 Y:6338.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:376 Base:G X:4654.2 Y:6355.8 Fill:"#FBEAC8" Bond:Black }
+          { ID:377 Base:G X:4665.4 Y:6382.5 Fill:"#F6C263" Bond:Black }
+          { ID:378 Base:U X:4653.8 Y:6409.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:379 Base:C X:4653.8 Y:6426.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:380 Base:U X:4653.8 Y:6444.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:381 Base:U X:4653.8 Y:6461.5 Fill:"#F6C263" Bond:Black }
+          { ID:382 Base:A X:4669.9 Y:6479.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:383 Base:U X:4669.5 Y:6515.3 Fill:"#F4AF40" Bond:Black }
+          { ID:384 Base:C X:4653.0 Y:6533.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:385 Base:A X:4653.0 Y:6550.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:386 Base:G X:4653.0 Y:6568.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:387 Base:A X:4653.0 Y:6585.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:388 Base:G X:4653.0 Y:6603.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:389 Base:G X:4664.7 Y:6631.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:390 Base:C X:4652.2 Y:6657.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:391 Base:A X:4652.2 Y:6674.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:392 Base:C X:4652.2 Y:6692.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:393 Base:G X:4652.2 Y:6709.7 Fill:"#FBEAC8" Bond:Black }
+          { ID:394 Base:U X:4652.2 Y:6727.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:395 Base:C X:4669.6 Y:6728.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:396 Base:A X:4684.5 Y:6725.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:397 Base:A X:4704.8 Y:6722.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:398 Base:C X:4722.3 Y:6723.1 Fill:"#F9D693" Bond:Black }
+          { ID:399 Base:A X:4738.4 Y:6726.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:400 Base:U X:4753.2 Y:6735.2 Fill:"#F9D693" Bond:Black NumOffset:-3.0513961 }
+        ]
+      }
+      {
+        Strand:[
+          { ID:401 Base:G X:4795.4 Y:6842.2 Fill:"#F6C263" Bond:Black }
+          { ID:402 Base:C X:4776.9 Y:6850.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:403 Base:A X:4757.5 Y:6857.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:404 Base:A X:4737.5 Y:6861.7 Fill:"#F4AF40" Bond:Black }
+          { ID:405 Base:C X:4717.1 Y:6863.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:406 Base:A X:4696.6 Y:6863.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:407 Base:A X:4676.3 Y:6861.0 Fill:"#F6C263" Bond:Black }
+          { ID:408 Base:U X:4656.4 Y:6856.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:409 Base:C X:4637.1 Y:6849.3 Fill:"#FBEAC8" Bond:Black NumOffset:-0.8384921 }
+          { ID:410 Base:C X:4618.7 Y:6840.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:411 Base:A X:4619.3 Y:6858.1 Fill:"#F9D693" Bond:Black }
+          { ID:412 Base:U X:4620.5 Y:6876.0 Fill:"#F6C263" Bond:Black }
+          { ID:413 Base:G X:4620.0 Y:6894.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:414 Base:A X:4620.8 Y:6912.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:415 Base:G X:4621.0 Y:6930.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:416 Base:G X:4639.5 Y:6949.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:417 Base:A X:4625.4 Y:6971.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:418 Base:G X:4626.3 Y:6989.0 Fill:"#F4AF40" Bond:Black }
+          { ID:419 Base:U X:4638.7 Y:7009.3 Fill:"#F9D693" Bond:Black }
+          { ID:420 Base:G X:4638.8 Y:7031.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:421 Base:C X:4626.5 Y:7051.7 Fill:"#F9D693" Bond:Black }
+          { ID:422 Base:U X:4627.3 Y:7068.7 Fill:"#F4AF40" Bond:Black }
+          { ID:423 Base:G X:4629.2 Y:7086.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:424 Base:A X:4630.5 Y:7103.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:425 Base:C X:4642.2 Y:7119.2 Fill:"#F4AF40" Bond:Black }
+          { ID:426 Base:U X:4642.3 Y:7139.0 Fill:"#F4AF40" Bond:Black }
+          { ID:427 Base:C X:4630.7 Y:7154.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:428 Base:A X:4611.9 Y:7160.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:429 Base:A X:4586.3 Y:7147.8 Fill:"#FBEAC8" Bond:Black }
+          { ID:430 Base:C X:4584.9 Y:7121.6 Fill:"#F9D693" Bond:Black }
+          { ID:431 Base:U X:4594.0 Y:7103.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:432 Base:C X:4593.0 Y:7085.6 Fill:"#F6C263" Bond:Black }
+          { ID:433 Base:A X:4593.5 Y:7068.2 Fill:"#F9D693" Bond:Black }
+          { ID:434 Base:G X:4593.6 Y:7050.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:435 Base:G X:4580.9 Y:7031.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:436 Base:C X:4580.7 Y:7009.8 Fill:"#F4AF40" Bond:Black }
+          { ID:437 Base:C X:4592.8 Y:6989.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:438 Base:U X:4592.5 Y:6972.7 Fill:"#FEF8EC" Bond:Black NumOffset:-0.49788356 }
+          { ID:439 Base:A X:4573.2 Y:6968.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:440 Base:A X:4564.8 Y:6950.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:441 Base:A X:4573.8 Y:6933.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:442 Base:C X:4593.3 Y:6930.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:443 Base:U X:4592.8 Y:6911.4 Fill:"#FEF8EC" Bond:Black NumOffset:0.040462323 }
+          { ID:444 Base:A X:4592.2 Y:6875.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:445 Base:C X:4592.0 Y:6894.7 Fill:"#F4AF40" Bond:Black }
+          { ID:446 Base:U X:4592.0 Y:6857.9 Fill:"#F9D693" Bond:Black }
+          { ID:447 Base:G X:4591.3 Y:6840.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:448 Base:C X:4575.1 Y:6844.6 Fill:"#F4AF40" Bond:Black NumOffset:0.7514758 }
+          { ID:449 Base:A X:4558.7 Y:6847.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:450 Base:G X:4542.1 Y:6848.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:451 Base:A X:4525.5 Y:6848.6 Fill:"#F9D693" Bond:Black }
+          { ID:452 Base:C X:4508.9 Y:6847.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:453 Base:C X:4492.5 Y:6845.0 Fill:"#FEF8EC" Bond:Black NumOffset:-0.4761686 }
+          { ID:454 Base:A X:4476.2 Y:6841.3 Fill:"#FEF8EC" Bond:Black NumOffset:-0.6495473 }
+          { ID:455 Base:C X:4460.4 Y:6836.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:456 Base:A X:4460.4 Y:6854.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:457 Base:C X:4460.4 Y:6871.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:458 Base:A X:4460.4 Y:6889.5 Fill:"#F9D693" Bond:Black }
+          { ID:459 Base:A X:4460.4 Y:6907.1 Fill:"#F9D693" Bond:Black }
+          { ID:460 Base:G X:4460.4 Y:6924.8 Fill:"#F4AF40" Bond:Black }
+          { ID:461 Base:G X:4475.2 Y:6942.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:462 Base:C X:4475.2 Y:6979.2 Fill:"#F9D693" Bond:Black }
+          { ID:463 Base:A X:4459.6 Y:6996.3 Fill:"#FBEAC8" Bond:Black NumOffset:0.26505962 }
+          { ID:464 Base:G X:4459.6 Y:7014.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:465 Base:A X:4470.6 Y:7040.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:466 Base:U X:4458.9 Y:7067.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:467 Base:G X:4458.9 Y:7085.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:468 Base:G X:4458.9 Y:7103.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:469 Base:G X:4458.9 Y:7120.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:470 Base:C X:4458.9 Y:7138.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:471 Base:U X:4458.9 Y:7156.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:472 Base:A X:4458.9 Y:7173.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:473 Base:U X:4458.9 Y:7191.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:474 Base:A X:4458.9 Y:7209.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:475 Base:U X:4458.9 Y:7227.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:476 Base:A X:4458.9 Y:7244.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:477 Base:A X:4473.7 Y:7262.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:478 Base:A X:4473.0 Y:7298.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:479 Base:C X:4457.4 Y:7316.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:480 Base:G X:4457.4 Y:7334.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:481 Base:U X:4457.4 Y:7352.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:482 Base:U X:4473.2 Y:7364.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:483 Base:U X:4485.3 Y:7397.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:484 Base:U X:4471.3 Y:7429.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:485 Base:C X:4455.9 Y:7442.0 Fill:"#F9D693" Bond:Black }
+          { ID:486 Base:G X:4455.9 Y:7459.7 Fill:"#F6C263" Bond:Black }
+          { ID:487 Base:C X:4467.2 Y:7477.8 Fill:"#F9D693" Bond:Black }
+          { ID:488 Base:U X:4467.0 Y:7501.2 Fill:"#F4AF40" Bond:Black }
+          { ID:489 Base:U X:4450.1 Y:7516.8 Fill:"#F4AF40" Bond:Black }
+          { ID:490 Base:U X:4426.8 Y:7516.5 Fill:"#F9D693" Bond:Black }
+          { ID:491 Base:U X:4411.2 Y:7499.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:492 Base:C X:4411.4 Y:7476.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:493 Base:C X:4424.9 Y:7458.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:494 Base:G X:4424.9 Y:7440.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:495 Base:U X:4407.7 Y:7428.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:496 Base:U X:4395.5 Y:7395.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:497 Base:U X:4409.5 Y:7363.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:498 Base:A X:4426.3 Y:7350.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:499 Base:C X:4426.3 Y:7333.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:500 Base:G X:4426.3 Y:7315.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:501 Base:A X:4406.5 Y:7279.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:502 Base:U X:4428.5 Y:7244.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:503 Base:A X:4428.5 Y:7226.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:504 Base:U X:4428.5 Y:7208.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:505 Base:A X:4428.5 Y:7191.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:506 Base:U X:4428.5 Y:7173.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:507 Base:A X:4428.5 Y:7155.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:508 Base:G X:4428.5 Y:7138.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:509 Base:U X:4428.5 Y:7120.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:510 Base:C X:4428.5 Y:7102.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:511 Base:U X:4428.5 Y:7084.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:512 Base:A X:4428.5 Y:7067.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:513 Base:C X:4429.2 Y:7013.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:514 Base:U X:4429.2 Y:6995.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:515 Base:C X:4429.2 Y:6925.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:516 Base:U X:4429.2 Y:6907.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:517 Base:U X:4429.2 Y:6889.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:518 Base:G X:4429.2 Y:6871.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:519 Base:U X:4429.2 Y:6854.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:520 Base:G X:4429.2 Y:6836.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:521 Base:C X:4424.6 Y:6819.0 Fill:"#F4AF40" Bond:Black }
+          { ID:522 Base:A X:4416.8 Y:6802.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:523 Base:G X:4406.1 Y:6788.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:524 Base:A X:4393.0 Y:6775.5 Fill:"#F4AF40" Bond:Black }
+          { ID:525 Base:A X:4377.7 Y:6765.7 Fill:"#F4AF40" Bond:Black }
+          { ID:526 Base:U X:4360.9 Y:6758.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:527 Base:G X:4343.2 Y:6755.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:528 Base:A X:4325.0 Y:6754.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:529 Base:A X:4307.2 Y:6757.9 Fill:"#F4AF40" Bond:Black }
+          { ID:530 Base:U X:4290.1 Y:6764.2 Fill:"#F9D693" Bond:Black }
+          { ID:531 Base:U X:4274.6 Y:6773.5 Fill:"#F9D693" Bond:Black }
+          { ID:532 Base:C X:4261.0 Y:6785.5 Fill:"#F4AF40" Bond:Black }
+          { ID:533 Base:U X:4249.8 Y:6799.7 Fill:"#F4AF40" Bond:Black }
+          { ID:534 Base:C X:4241.5 Y:6815.8 Fill:"#F9D693" Bond:Black }
+          { ID:535 Base:G X:4236.2 Y:6833.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:536 Base:U X:4235.2 Y:6887.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:537 Base:A X:4235.2 Y:6904.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:538 Base:A X:4235.2 Y:6921.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:539 Base:C X:4235.2 Y:6938.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:540 Base:U X:4235.2 Y:6955.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:541 Base:A X:4235.2 Y:6972.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:542 Base:C X:4235.2 Y:6989.8 Fill:"#F9D693" Bond:Black }
+          { ID:543 Base:A X:4235.2 Y:7006.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:544 Base:U X:4235.2 Y:7024.0 Fill:"#F6C263" Bond:Black }
+          { ID:545 Base:A X:4251.2 Y:7035.3 Fill:"#F9D693" Bond:Black }
+          { ID:546 Base:G X:4265.0 Y:7055.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:547 Base:C X:4267.0 Y:7078.6 Fill:"#F9D693" Bond:Black }
+          { ID:548 Base:A X:4258.9 Y:7100.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:549 Base:C X:4241.2 Y:7116.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:550 Base:A X:4218.9 Y:7121.5 Fill:"#F4AF40" Bond:Black }
+          { ID:551 Base:A X:4195.4 Y:7115.8 Fill:"#F4AF40" Bond:Black }
+          { ID:552 Base:G X:4178.9 Y:7100.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:553 Base:U X:4170.2 Y:7077.6 Fill:"#F4AF40" Bond:Black }
+          { ID:554 Base:A X:4173.2 Y:7055.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:555 Base:G X:4186.0 Y:7035.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:556 Base:A X:4204.1 Y:7024.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:557 Base:U X:4204.1 Y:7007.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:558 Base:G X:4204.1 Y:6989.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:559 Base:U X:4204.1 Y:6972.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:560 Base:A X:4204.1 Y:6955.7 Fill:"#FBEAC8" Bond:Black }
+          { ID:561 Base:G X:4204.1 Y:6938.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:562 Base:U X:4204.1 Y:6921.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:563 Base:U X:4204.1 Y:6904.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:564 Base:A X:4204.1 Y:6887.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:565 Base:A X:4192.2 Y:6859.4 Fill:"#F6C263" Bond:Black }
+          { ID:566 Base:C X:4205.6 Y:6832.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:567 Base:U X:4179.1 Y:6810.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:568 Base:U X:4148.7 Y:6793.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:569 Base:U X:4115.6 Y:6783.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:570 Base:A X:4081.1 Y:6780.2 Fill:"#FBEAC8" Bond:Black NumOffset:-3.1312213 }
+          { ID:571 Base:A X:4046.7 Y:6784.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:572 Base:U X:4013.8 Y:6794.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:573 Base:C X:3983.6 Y:6811.6 Fill:"#F9D693" Bond:Black }
+          { ID:574 Base:U X:3957.5 Y:6834.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:575 Base:C X:3957.1 Y:6852.2 Fill:"#F9D693" Bond:Black }
+          { ID:576 Base:A X:3956.7 Y:6870.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:577 Base:C X:3956.3 Y:6887.9 Fill:"#F4AF40" Bond:Black }
+          { ID:578 Base:A X:3952.0 Y:7033.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:579 Base:U X:3952.5 Y:7051.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:580 Base:A X:3953.0 Y:7068.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:581 Base:G X:3953.4 Y:7086.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:582 Base:C X:3953.9 Y:7103.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:583 Base:A X:3954.4 Y:7120.9 Fill:"#FBEAC8" Bond:Black NumOffset:-0.36877108 }
+          { ID:584 Base:A X:3972.6 Y:7129.0 Fill:"#F9D693" Bond:Black }
+          { ID:585 Base:U X:4001.1 Y:7152.0 Fill:"#F4AF40" Bond:Black }
+          { ID:586 Base:C X:4016.5 Y:7184.6 Fill:"#F4AF40" Bond:Black }
+          { ID:587 Base:U X:4016.0 Y:7221.2 Fill:"#F4AF40" Bond:Black }
+          { ID:588 Base:U X:4000.1 Y:7253.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:589 Base:U X:3970.9 Y:7275.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:590 Base:A X:3951.5 Y:7283.7 Fill:"#F6C263" Bond:Black }
+          { ID:591 Base:A X:3952.0 Y:7301.2 Fill:"#F6C263" Bond:Black }
+          { ID:592 Base:U X:3952.5 Y:7318.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:593 Base:C X:3966.7 Y:7323.0 Fill:"#F4AF40" Bond:Black NumOffset:0.38819915 }
+          { ID:594 Base:A X:3994.5 Y:7337.5 Fill:"#F4AF40" Bond:Black }
+          { ID:595 Base:G X:4016.4 Y:7360.4 Fill:"#F4AF40" Bond:Black }
+          { ID:596 Base:U X:4029.6 Y:7388.4 Fill:"#F4AF40" Bond:Black }
+          { ID:597 Base:G X:4034.2 Y:7419.4 Fill:"#F4AF40" Bond:Black }
+          { ID:598 Base:U X:4029.5 Y:7449.3 Fill:"#F4AF40" Bond:Black }
+          { ID:599 Base:G X:4015.0 Y:7477.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:600 Base:U X:3992.1 Y:7498.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:601 Base:A X:3964.5 Y:7513.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:602 Base:A X:3950.1 Y:7517.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:603 Base:C X:3950.6 Y:7535.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:604 Base:A X:3951.0 Y:7552.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:605 Base:U X:3951.5 Y:7570.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:606 Base:U X:3952.0 Y:7587.5 Fill:"#F6C263" Bond:Black }
+          { ID:607 Base:A X:3952.5 Y:7604.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:608 Base:G X:3953.0 Y:7622.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:609 Base:G X:3953.5 Y:7639.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:610 Base:G X:3954.0 Y:7657.3 Fill:"#F4AF40" Bond:Black }
+          { ID:611 Base:A X:3984.9 Y:7668.1 Fill:"#F4AF40" Bond:Black }
+          { ID:612 Base:G X:4012.9 Y:7685.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:613 Base:G X:4036.8 Y:7707.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:614 Base:A X:4055.6 Y:7734.2 Fill:"#F4AF40" Bond:Black }
+          { ID:615 Base:C X:4068.5 Y:7764.2 Fill:"#F4AF40" Bond:Black }
+          { ID:616 Base:U X:4075.0 Y:7796.3 Fill:"#F4AF40" Bond:Black }
+          { ID:617 Base:U X:4074.7 Y:7829.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:618 Base:G X:4067.6 Y:7861.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:619 Base:A X:4054.2 Y:7890.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:620 Base:A X:4034.9 Y:7917.3 Fill:"#F4AF40" Bond:Black }
+          { ID:621 Base:A X:4010.6 Y:7939.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:622 Base:G X:3982.3 Y:7955.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:623 Base:A X:3951.2 Y:7965.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:624 Base:G X:3951.7 Y:7983.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:625 Base:C X:3952.4 Y:8003.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:626 Base:C X:3988.6 Y:7997.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:627 Base:A X:4024.6 Y:8005.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:628 Base:C X:4055.1 Y:8025.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:629 Base:C X:4072.6 Y:8025.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:630 Base:A X:4118.3 Y:7998.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:631 Base:C X:4162.9 Y:8027.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:632 Base:A X:4180.4 Y:8027.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:633 Base:U X:4197.9 Y:8027.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:634 Base:U X:4215.3 Y:8027.7 Fill:"#FEF8EC" Bond:Black }
+          { ID:635 Base:U X:4269.4 Y:8029.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:636 Base:U X:4286.9 Y:8029.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:637 Base:C X:4304.4 Y:8029.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:638 Base:A X:4321.8 Y:8029.1 Fill:"#F9D693" Bond:Black }
+          { ID:639 Base:C X:4339.3 Y:8029.1 Fill:"#F4AF40" Bond:Black }
+          { ID:640 Base:C X:4349.9 Y:8013.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:641 Base:G X:4376.5 Y:7994.3 Fill:"#F4AF40" Bond:Black }
+          { ID:642 Base:A X:4410.5 Y:7994.7 Fill:"#FBEAC8" Bond:Black }
+          { ID:643 Base:G X:4437.7 Y:8014.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:644 Base:G X:4447.1 Y:8031.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:645 Base:C X:4464.6 Y:8031.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:646 Base:C X:4491.6 Y:8020.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:647 Base:A X:4518.7 Y:8032.5 Fill:"#F6C263" Bond:Black }
+          { ID:648 Base:C X:4536.2 Y:8032.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:649 Base:G X:4549.0 Y:8017.1 Fill:"#F4AF40" Bond:Black }
+          { ID:650 Base:C X:4581.9 Y:8004.9 Fill:"#F4AF40" Bond:Black }
+          { ID:651 Base:G X:4613.0 Y:8018.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:652 Base:G X:4626.5 Y:8034.5 Fill:"#F4AF40" Bond:Black }
+          { ID:653 Base:A X:4644.0 Y:8034.5 Fill:"#F4AF40" Bond:Black }
+          { ID:654 Base:G X:4662.0 Y:8023.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:655 Base:U X:4685.3 Y:8024.0 Fill:"#F4AF40" Bond:Black }
+          { ID:656 Base:A X:4701.4 Y:8041.0 Fill:"#F4AF40" Bond:Black }
+          { ID:657 Base:C X:4701.6 Y:8063.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:658 Base:G X:4684.6 Y:8080.0 Fill:"#F4AF40" Bond:Black }
+          { ID:659 Base:A X:4661.4 Y:8079.2 Fill:"#F4AF40" Bond:Black }
+          { ID:660 Base:U X:4643.3 Y:8065.3 Fill:"#F4AF40" Bond:Black }
+          { ID:661 Base:C X:4625.8 Y:8065.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:662 Base:G X:4602.6 Y:8089.7 Fill:"#FBEAC8" Bond:Black }
+          { ID:663 Base:A X:4557.5 Y:8088.7 Fill:"#F4AF40" Bond:Black }
+          { ID:664 Base:G X:4535.5 Y:8063.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:665 Base:U X:4518.0 Y:8063.4 Fill:"#FBEAC8" Bond:Black }
+          { ID:666 Base:G X:4463.9 Y:8061.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:667 Base:U X:4446.4 Y:8061.9 Fill:"#FBEAC8" Bond:Black }
+          { ID:668 Base:A X:4431.4 Y:8084.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:669 Base:C X:4392.5 Y:8100.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:670 Base:A X:4354.4 Y:8083.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:671 Base:G X:4339.5 Y:8059.6 Fill:"#F4AF40" Bond:Black }
+          { ID:672 Base:U X:4322.1 Y:8059.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:673 Base:G X:4304.6 Y:8059.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:674 Base:A X:4287.1 Y:8059.6 Fill:"#F4AF40" Bond:Black }
+          { ID:675 Base:A X:4269.7 Y:8059.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:676 Base:C X:4242.2 Y:8071.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:677 Base:A X:4214.6 Y:8058.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:678 Base:A X:4197.2 Y:8058.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:679 Base:U X:4179.7 Y:8058.6 Fill:"#F6C263" Bond:Black }
+          { ID:680 Base:G X:4162.2 Y:8058.6 Fill:"#F4AF40" Bond:Black }
+          { ID:681 Base:C X:4148.8 Y:8075.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:682 Base:U X:4116.4 Y:8088.5 Fill:"#F4AF40" Bond:Black }
+          { ID:683 Base:A X:4085.3 Y:8074.8 Fill:"#FBEAC8" Bond:Black }
+          { ID:684 Base:G X:4071.9 Y:8056.6 Fill:"#F4AF40" Bond:Black }
+          { ID:685 Base:G X:4054.4 Y:8056.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:686 Base:G X:4023.7 Y:8068.4 Fill:"#F4AF40" Bond:Black }
+          { ID:687 Base:A X:3990.9 Y:8068.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:688 Base:G X:3960.3 Y:8056.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:689 Base:A X:3936.1 Y:8034.0 Fill:"#FEF8EC" Bond:Black }
+          { ID:690 Base:G X:3921.5 Y:8004.5 Fill:"#F9D693" Bond:Black }
+          { ID:691 Base:C X:3920.8 Y:7983.5 Fill:"#F9D693" Bond:Black }
+          { ID:692 Base:U X:3920.4 Y:7966.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:693 Base:G X:3892.7 Y:7959.4 Fill:"#F9D693" Bond:Black }
+          { ID:694 Base:C X:3866.4 Y:7948.8 Fill:"#F4AF40" Bond:Black }
+          { ID:695 Base:C X:3842.5 Y:7933.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:696 Base:U X:3821.8 Y:7914.2 Fill:"#F4AF40" Bond:Black }
+          { ID:697 Base:A X:3805.0 Y:7891.4 Fill:"#FEF8EC" Bond:Black }
+          { ID:698 Base:U X:3792.7 Y:7865.9 Fill:"#F4AF40" Bond:Black }
+          { ID:699 Base:A X:3785.2 Y:7838.6 Fill:"#F4AF40" Bond:Black }
+          { ID:700 Base:U X:3782.9 Y:7810.3 Fill:"#F4AF40" Bond:Black }
+          { ID:701 Base:G X:3785.7 Y:7782.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:702 Base:G X:3793.7 Y:7754.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:703 Base:A X:3806.5 Y:7729.7 Fill:"#F4AF40" Bond:Black }
+          { ID:704 Base:A X:3823.7 Y:7707.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:705 Base:G X:3844.7 Y:7688.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:706 Base:A X:3868.8 Y:7673.3 Fill:"#FEF8EC" Bond:Black }
+          { ID:707 Base:G X:3895.3 Y:7663.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:708 Base:C X:3923.1 Y:7657.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:709 Base:C X:3922.6 Y:7640.0 Fill:"#FBEAC8" Bond:Black }
+          { ID:710 Base:C X:3922.1 Y:7622.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:711 Base:U X:3921.6 Y:7605.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:712 Base:A X:3921.1 Y:7587.6 Fill:"#FBEAC8" Bond:Black }
+          { ID:713 Base:A X:3920.7 Y:7570.2 Fill:"#FEF8EC" Bond:Black }
+          { ID:714 Base:U X:3920.2 Y:7552.7 Fill:"#F4AF40" Bond:Black }
+          { ID:715 Base:G X:3919.7 Y:7535.3 Fill:"#F9D693" Bond:Black }
+          { ID:716 Base:U X:3919.2 Y:7517.8 Fill:"#F6C263" Bond:Black }
+          { ID:717 Base:G X:3903.2 Y:7512.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:718 Base:U X:3875.4 Y:7497.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:719 Base:A X:3854.0 Y:7475.6 Fill:"#FEF8EC" Bond:Black }
+          { ID:720 Base:A X:3839.9 Y:7448.0 Fill:"#F9D693" Bond:Black }
+          { ID:721 Base:A X:3835.2 Y:7417.0 Fill:"#F4AF40" Bond:Black }
+          { ID:722 Base:A X:3840.4 Y:7385.8 Fill:"#F4AF40" Bond:Black }
+          { ID:723 Base:U X:3854.9 Y:7357.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:724 Base:U X:3876.9 Y:7336.5 Fill:"#F4AF40" Bond:Black }
+          { ID:725 Base:A X:3905.0 Y:7323.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:726 Base:A X:3921.6 Y:7318.8 Fill:"#F9D693" Bond:Black }
+          { ID:727 Base:U X:3921.1 Y:7301.3 Fill:"#F9D693" Bond:Black }
+          { ID:728 Base:U X:3920.6 Y:7283.9 Fill:"#F4AF40" Bond:Black }
+          { ID:729 Base:U X:3905.2 Y:7276.8 Fill:"#FEF8EC" Bond:Black }
+          { ID:730 Base:U X:3878.3 Y:7259.6 Fill:"#F4AF40" Bond:Black }
+          { ID:731 Base:A X:3861.0 Y:7232.4 Fill:"#F4AF40" Bond:Black }
+          { ID:732 Base:G X:3855.0 Y:7200.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:733 Base:U X:3861.6 Y:7170.2 Fill:"#F6C263" Bond:Black }
+          { ID:734 Base:A X:3880.1 Y:7143.8 Fill:"#F6C263" Bond:Black }
+          { ID:735 Base:G X:3906.0 Y:7126.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:736 Base:U X:3923.6 Y:7121.1 Fill:"#FBEAC8" Bond:Black }
+          { ID:737 Base:G X:3923.1 Y:7103.7 Fill:"#F9D693" Bond:Black }
+          { ID:738 Base:C X:3922.6 Y:7086.2 Fill:"#FBEAC8" Bond:Black }
+          { ID:739 Base:U X:3922.1 Y:7068.7 Fill:"#F6C263" Bond:Black }
+          { ID:740 Base:A X:3921.6 Y:7051.3 Fill:"#F4AF40" Bond:Black }
+          { ID:741 Base:U X:3921.1 Y:7033.8 Fill:"#F4AF40" Bond:Black }
+          { ID:742 Base:C X:3904.8 Y:7025.0 Fill:"#F4AF40" Bond:Black }
+          { ID:743 Base:C X:3879.3 Y:7003.8 Fill:"#F4AF40" Bond:Black }
+          { ID:744 Base:C X:3865.7 Y:6974.8 Fill:"#FBEAC8" Bond:Black }
+          { ID:745 Base:C X:3866.9 Y:6942.2 Fill:"#F4AF40" Bond:Black }
+          { ID:746 Base:A X:3881.9 Y:6913.0 Fill:"#F9D693" Bond:Black }
+          { ID:747 Base:U X:3907.9 Y:6893.1 Fill:"#F6C263" Bond:Black }
+          { ID:748 Base:G X:3925.0 Y:6887.2 Fill:"#F4AF40" Bond:Black NumOffset:0.45689937 }
+          { ID:749 Base:U X:3925.4 Y:6869.3 Fill:"#FBEAC8" Bond:Black }
+          { ID:750 Base:G X:3925.8 Y:6851.4 Fill:"#F9D693" Bond:Black }
+          { ID:751 Base:A X:3926.2 Y:6833.5 Fill:"#F4AF40" Bond:Black }
+          { ID:752 Base:U X:3917.9 Y:6801.1 Fill:"#F4AF40" Bond:Black }
+          { ID:753 Base:U X:3911.0 Y:6786.8 Fill:"#F4AF40" Bond:Black }
+          { ID:754 Base:U X:3901.8 Y:6763.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:755 Base:U X:3883.8 Y:6763.9 Fill:"#FEF8EC" Bond:Black NumOffset:0.5186678 }
+          { ID:756 Base:A X:3865.7 Y:6763.9 Fill:"#F9D693" Bond:Black }
+          { ID:757 Base:A X:3847.7 Y:6763.9 Fill:"#FEF8EC" Bond:Black }
+          { ID:758 Base:U X:3820.9 Y:6777.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:759 Base:A X:3795.2 Y:6764.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:760 Base:G X:3777.1 Y:6764.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:761 Base:C X:3748.7 Y:6776.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:762 Base:U X:3723.0 Y:6763.5 Fill:"#F9D693" Bond:Black }
+          { ID:763 Base:U X:3705.0 Y:6763.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:764 Base:C X:3686.9 Y:6763.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:765 Base:U X:3632.8 Y:6762.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:766 Base:U X:3614.8 Y:6762.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:767 Base:A X:3586.4 Y:6774.1 Fill:"#FEF8EC" Bond:Black }
+          { ID:768 Base:G X:3560.6 Y:6761.5 Fill:"#FEF8EC" Bond:Black }
+          { ID:769 Base:G X:3542.6 Y:6761.5 Fill:"#FBEAC8" Bond:Black }
+          { ID:770 Base:A X:3524.6 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:771 Base:G X:3506.6 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:772 Base:A X:3488.5 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:773 Base:A X:3470.5 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:774 Base:U X:3452.5 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:775 Base:G X:3434.4 Y:6761.5 Fill:Gray Bond:Black }
+          { ID:776 Base:A X:3423.4 Y:6771.9 Fill:Gray Bond:Black }
+          { ID:777 Base:C X:3412.3 Y:6782.3 Fill:Gray Bond:Black }
+          { ID:778 Base:A X:3401.2 Y:6792.7 Fill:Gray Bond:Black }
+          { ID:779 Base:A X:3390.1 Y:6803.2 Fill:Gray Bond:Black }
+          { ID:780 Base:A X:3379.0 Y:6813.6 Fill:Gray Bond:Black NumOffset:-2.9682481 }
+          { ID:781 Base:A X:3367.9 Y:6824.0 Fill:Gray Bond:Black }
+          { ID:782 Base:A X:3356.8 Y:6834.4 Fill:Gray Bond:Black }
+          { ID:783 Base:A X:3347.2 Y:6843.6 Fill:Gray Bond:Black NumOffset:-2.6063652 }
+          { ID:784 Base:A X:3336.2 Y:6856.3 }
+          { ID:785 Base:A X:3325.3 Y:6866.9 NumOffset:-1.4753134 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"7:33" Type:BP }
+      { Pair:"8:32" Type:BP }
+      { Pair:"9:31" Type:BP }
+      { Pair:"10:30" Type:BP }
+      { Pair:"11:29" Type:BP }
+      { Pair:"13:26" Type:BP }
+      { Pair:"14:25" Type:BP }
+      { Pair:"15:24" Type:BP }
+      { Pair:"16:23" Type:BP }
+      { Pair:"17:22" Type:BP }
+      { Pair:"45:59" Type:BP }
+      { Pair:"46:58" Type:BP }
+      { Pair:"47:57" Type:BP }
+      { Pair:"48:56" Type:BP }
+      { Pair:"49:55" Type:BP }
+      { Pair:"60:775" Type:BP }
+      { Pair:"61:774" Type:BP }
+      { Pair:"62:773" Type:BP }
+      { Pair:"63:772" Type:BP }
+      { Pair:"64:771" Type:BP }
+      { Pair:"65:770" Type:BP }
+      { Pair:"66:769" Type:BP }
+      { Pair:"67:768" Type:BP }
+      { Pair:"69:766" Type:BP }
+      { Pair:"70:765" Type:BP }
+      { Pair:"72:764" Type:BP }
+      { Pair:"73:763" Type:BP }
+      { Pair:"74:762" Type:BP }
+      { Pair:"75:760" Type:BP }
+      { Pair:"76:759" Type:BP }
+      { Pair:"77:757" Type:BP }
+      { Pair:"78:756" Type:BP }
+      { Pair:"79:755" Type:BP }
+      { Pair:"80:754" Type:BP }
+      { Pair:"84:127" Type:BP }
+      { Pair:"85:126" Type:BP }
+      { Pair:"86:125" Type:BP }
+      { Pair:"87:124" Type:BP }
+      { Pair:"88:123" Type:BP }
+      { Pair:"89:122" Type:BP }
+      { Pair:"90:121" Type:BP }
+      { Pair:"91:120" Type:BP }
+      { Pair:"93:118" Type:BP }
+      { Pair:"94:117" Type:BP }
+      { Pair:"96:116" Type:BP }
+      { Pair:"97:115" Type:BP }
+      { Pair:"98:114" Type:BP }
+      { Pair:"99:113" Type:BP }
+      { Pair:"101:111" Type:BP }
+      { Pair:"102:110" Type:BP }
+      { Pair:"103:109" Type:BP }
+      { Pair:"134:146" Type:BP }
+      { Pair:"135:145" Type:BP }
+      { Pair:"136:144" Type:BP }
+      { Pair:"137:143" Type:BP }
+      { Pair:"150:294" Type:BP }
+      { Pair:"151:293" Type:BP }
+      { Pair:"152:292" Type:BP }
+      { Pair:"153:291" Type:BP }
+      { Pair:"154:290" Type:BP }
+      { Pair:"155:289" Type:BP }
+      { Pair:"156:288" Type:BP }
+      { Pair:"157:284" Type:BP }
+      { Pair:"158:283" Type:BP }
+      { Pair:"159:282" Type:BP }
+      { Pair:"160:281" Type:BP }
+      { Pair:"163:279" Type:BP }
+      { Pair:"164:278" Type:BP }
+      { Pair:"165:277" Type:BP }
+      { Pair:"166:276" Type:BP }
+      { Pair:"167:275" Type:BP }
+      { Pair:"171:273" Type:BP }
+      { Pair:"172:272" Type:BP }
+      { Pair:"173:271" Type:BP }
+      { Pair:"175:270" Type:BP }
+      { Pair:"176:269" Type:BP }
+      { Pair:"177:268" Type:BP }
+      { Pair:"178:267" Type:BP }
+      { Pair:"179:266" Type:BP }
+      { Pair:"180:265" Type:BP }
+      { Pair:"181:264" Type:BP }
+      { Pair:"182:263" Type:BP }
+      { Pair:"183:227" Type:BP }
+      { Pair:"184:226" Type:BP }
+      { Pair:"185:225" Type:BP }
+      { Pair:"188:218" Type:BP }
+      { Pair:"189:217" Type:BP }
+      { Pair:"190:216" Type:BP }
+      { Pair:"191:215" Type:BP }
+      { Pair:"192:214" Type:BP }
+      { Pair:"193:213" Type:BP }
+      { Pair:"195:210" Type:BP }
+      { Pair:"196:209" Type:BP }
+      { Pair:"197:208" Type:BP }
+      { Pair:"198:207" Type:BP }
+      { Pair:"199:206" Type:BP }
+      { Pair:"228:252" Type:BP }
+      { Pair:"229:251" Type:BP }
+      { Pair:"230:250" Type:BP }
+      { Pair:"231:249" Type:BP }
+      { Pair:"232:248" Type:BP }
+      { Pair:"233:247" Type:BP }
+      { Pair:"234:246" Type:BP }
+      { Pair:"236:245" Type:BP }
+      { Pair:"237:244" Type:BP }
+      { Pair:"253:262" Type:BP }
+      { Pair:"254:261" Type:BP }
+      { Pair:"255:260" Type:BP }
+      { Pair:"302:343" Type:BP }
+      { Pair:"303:342" Type:BP }
+      { Pair:"304:341" Type:BP }
+      { Pair:"305:340" Type:BP }
+      { Pair:"306:339" Type:BP }
+      { Pair:"307:338" Type:BP }
+      { Pair:"319:333" Type:BP }
+      { Pair:"320:332" Type:BP }
+      { Pair:"321:331" Type:BP }
+      { Pair:"322:330" Type:BP }
+      { Pair:"323:329" Type:BP }
+      { Pair:"324:328" Type:BP }
+      { Pair:"349:394" Type:BP }
+      { Pair:"350:393" Type:BP }
+      { Pair:"351:392" Type:BP }
+      { Pair:"352:391" Type:BP }
+      { Pair:"353:390" Type:BP }
+      { Pair:"355:388" Type:BP }
+      { Pair:"356:387" Type:BP }
+      { Pair:"357:386" Type:BP }
+      { Pair:"358:385" Type:BP }
+      { Pair:"359:384" Type:BP }
+      { Pair:"360:381" Type:BP }
+      { Pair:"361:380" Type:BP }
+      { Pair:"362:379" Type:BP }
+      { Pair:"363:378" Type:BP }
+      { Pair:"364:376" Type:BP }
+      { Pair:"365:375" Type:BP }
+      { Pair:"366:374" Type:BP }
+      { Pair:"367:373" Type:BP }
+      { Pair:"410:447" Type:BP }
+      { Pair:"411:446" Type:BP }
+      { Pair:"412:444" Type:PK }
+      { Pair:"413:445" Type:BP }
+      { Pair:"414:443" Type:BP }
+      { Pair:"415:442" Type:BP }
+      { Pair:"417:438" Type:BP }
+      { Pair:"418:437" Type:BP }
+      { Pair:"421:434" Type:BP }
+      { Pair:"422:433" Type:BP }
+      { Pair:"423:432" Type:BP }
+      { Pair:"424:431" Type:BP }
+      { Pair:"455:520" Type:BP }
+      { Pair:"456:519" Type:BP }
+      { Pair:"457:518" Type:BP }
+      { Pair:"458:517" Type:BP }
+      { Pair:"459:516" Type:BP }
+      { Pair:"460:515" Type:BP }
+      { Pair:"463:514" Type:BP }
+      { Pair:"464:513" Type:BP }
+      { Pair:"466:512" Type:BP }
+      { Pair:"467:511" Type:BP }
+      { Pair:"468:510" Type:BP }
+      { Pair:"469:509" Type:BP }
+      { Pair:"470:508" Type:BP }
+      { Pair:"471:507" Type:BP }
+      { Pair:"472:506" Type:BP }
+      { Pair:"473:505" Type:BP }
+      { Pair:"474:504" Type:BP }
+      { Pair:"475:503" Type:BP }
+      { Pair:"476:502" Type:BP }
+      { Pair:"479:500" Type:BP }
+      { Pair:"480:499" Type:BP }
+      { Pair:"481:498" Type:BP }
+      { Pair:"485:494" Type:BP }
+      { Pair:"486:493" Type:BP }
+      { Pair:"535:566" Type:BP }
+      { Pair:"536:564" Type:BP }
+      { Pair:"537:563" Type:BP }
+      { Pair:"538:562" Type:BP }
+      { Pair:"539:561" Type:BP }
+      { Pair:"540:560" Type:BP }
+      { Pair:"541:559" Type:BP }
+      { Pair:"542:558" Type:BP }
+      { Pair:"543:557" Type:BP }
+      { Pair:"544:556" Type:BP }
+      { Pair:"574:751" Type:BP }
+      { Pair:"575:750" Type:BP }
+      { Pair:"576:749" Type:BP }
+      { Pair:"577:748" Type:BP }
+      { Pair:"578:741" Type:BP }
+      { Pair:"579:740" Type:BP }
+      { Pair:"580:739" Type:BP }
+      { Pair:"581:738" Type:BP }
+      { Pair:"582:737" Type:BP }
+      { Pair:"583:736" Type:BP }
+      { Pair:"590:728" Type:BP }
+      { Pair:"591:727" Type:BP }
+      { Pair:"592:726" Type:BP }
+      { Pair:"602:716" Type:BP }
+      { Pair:"603:715" Type:BP }
+      { Pair:"604:714" Type:BP }
+      { Pair:"605:713" Type:BP }
+      { Pair:"606:712" Type:BP }
+      { Pair:"607:711" Type:BP }
+      { Pair:"608:710" Type:BP }
+      { Pair:"609:709" Type:BP }
+      { Pair:"610:708" Type:BP }
+      { Pair:"623:692" Type:BP }
+      { Pair:"624:691" Type:BP }
+      { Pair:"625:690" Type:BP }
+      { Pair:"628:685" Type:BP }
+      { Pair:"629:684" Type:BP }
+      { Pair:"631:680" Type:BP }
+      { Pair:"632:679" Type:BP }
+      { Pair:"633:678" Type:BP }
+      { Pair:"634:677" Type:BP }
+      { Pair:"635:675" Type:BP }
+      { Pair:"636:674" Type:BP }
+      { Pair:"637:673" Type:BP }
+      { Pair:"638:672" Type:BP }
+      { Pair:"639:671" Type:BP }
+      { Pair:"644:667" Type:BP }
+      { Pair:"645:666" Type:BP }
+      { Pair:"647:665" Type:BP }
+      { Pair:"648:664" Type:BP }
+      { Pair:"652:661" Type:BP }
+      { Pair:"653:660" Type:BP }
+    ]
+  }
+]
