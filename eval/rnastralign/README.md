@@ -18,5 +18,5 @@ Four families (Group I Intron, tmRNA, tRNA, and 5S rRNA) are used for parameter 
 
 There are two versions of the data, aligned version (all the homologs in the sample are aligned) and unaligned version:
 - Aligned Version: [data/aln/](./data/aln/)
-- Unaligned Version: [data/no-aln/](./data/no-aln/)
+- Unaligned Version: [data/no_aln/](./data/no_aln/)
 
