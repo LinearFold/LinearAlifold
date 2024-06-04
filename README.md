@@ -83,6 +83,9 @@ Running sampling mode
 ...((..((((((((...........))))))))..))
 ```
 
+## Evaluation
+The evaluation directory ([eval/](eval/)) contains SARS-CoV-2 and RNAstralign datasets used for evaluating LinearAlifold's performance. This directory also contain utility scripts for calculating structural distance, ensemble defect, sequence identity, and other metrics.
+
 ## Reference
 Apoorv Malik†, Liang Zhang†, Ning Dai, Sizhen Li, He Zhang, David H. Mathews, Liang Huang†* (2023). LinearAlifold: Linear-Time Consensus Structure Prediction for RNA Alignments. In submission to Journal of Molecular Biology (JMB) Special Issue on Computation Resources for Molecular Biology.
 
