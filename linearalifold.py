@@ -19,7 +19,7 @@ def get_args():
     parser.add_argument("-c", "--cutoff", type=int, default=-40, help="Set pairability/conservation score cutoff threshold (DEFAULT=-40)")
     parser.add_argument("-y", "--beta", type = float, default=1.2, help="Set parameter beta value (DEFAULT=1.2)")
     parser.add_argument("-z", "--delta", type = float, default=0.1, help="Set parameter delta value (DEFAULT=0.1)")
-    parser.add_argument("-g", "--gamma", type=float, default=2, help="Set parameter gamma value (DEFAULT=0)")
+    parser.add_argument("-g", "--gamma", type=float, default=2, help="Set parameter gamma value (DEFAULT=2)")
     parser.add_argument('-t', '--threshknot-threshold', type=float, default=0.3, help='Set threshknot threshold')
     
     parser.add_argument('-B', "--bpp-file", type=str, help="BPP matrix save path", default="")
