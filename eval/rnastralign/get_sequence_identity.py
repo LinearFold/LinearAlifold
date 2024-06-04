@@ -31,14 +31,6 @@ def main(data_path):
             seq_identities[family].append(avg_identity)
 
     # Print formatted results
-    # print("Sequence Identity")
-    # print("{:<8}\t{:>10}".format("Family", "Identity"))
-
-    # for family in sorted(seq_identities):
-    #     avg_value = np.mean(seq_identities[family])
-    #     print("{:<8}\t{:>10.2f}".format(family, avg_value))
-
-    # Print formatted results
     print("Sequence Identity")
     print("{:<8}\t{:>10}\t{:>10}".format("Family", "Identity", "Length"))
 
