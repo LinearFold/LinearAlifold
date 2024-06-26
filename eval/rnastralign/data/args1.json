@@ -1,0 +1,83 @@
+[
+    {
+      "input_dir": "./gold-database/RNAStrAlign-master/5S_rRNA_database/Bacteria/",
+      "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+      "k": 30,
+      "count": [20, 30, 50],
+      "dataset_name": "RNAStrAlign",
+      "family_name": "5S",
+      "subfamily_name": "Bacteria",
+      "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/16S_rRNA_database/Alphaproteobacteria/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "16S",
+        "subfamily_name": "Alphaproteobacteria",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/group_I_intron_database/IC1",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "group",
+        "subfamily_name": "IC1",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/RNaseP_database/a_bacterial/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "RNaseP",
+        "subfamily_name": "A Bacterial",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/SRP_database/protozoan/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "SRP",
+        "subfamily_name": "Protozoan",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/telomerase_database/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "telomerase",
+        "subfamily_name": "telomerase",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/tmRNA_database/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "tmRNA",
+        "subfamily_name": "tmRNA",
+        "align": 2
+    },
+    {
+        "input_dir": "./gold-database/RNAStrAlign-master/tRNA_database/",
+        "output_dir": ["./v2_20_samples/", "./v3_30_samples/", "./v5_50_samples/"],
+        "k": 30,
+        "count": [20, 30, 50],
+        "dataset_name": "RNAStrAlign",
+        "family_name": "tRNA",
+        "subfamily_name": "tRNA",
+        "align": 2
+    }
+  ]
+  

@@ -13,7 +13,7 @@ import numpy as np
 sys.path.insert(0, os.path.abspath(os.path.join(__file__, *(['..'] * 2))))
 import utility
 
-def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./database", cnsns=False, get_msa_seq_identity=False, \
+def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gold-database/", cnsns=False, get_msa_seq_identity=False, \
                                      skip_seq=True, allow_slip=True, verbose=False, backsearch=False):
     seq_files_name = sorted([f for f in os.listdir(data_path) if (f.endswith(".fasta") or f.endswith(".txt"))])
     struc_files_name = sorted([f for f in os.listdir(pred_path) if (f.endswith(".txt"))])
@@ -67,7 +67,7 @@ def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./database
         if backsearch:
             struc_lines = struc_lines[::-1]
         for line in struc_lines:
-            if line.startswith(".") or line.startswith("(") or line.startswith(")"):
+            if line[0] in set(["(", ".", "<", "[", "{"]):
                 if cnsns:
                     consns_struc = line.strip().split()[0]
                     for seq in seqs:
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--data-path", type=str, default="./data/no_aln", help="path to data folder")
     parser.add_argument("-p", "--pred-path", type=str, default="./outputs", help="path to prediction folder")
-    parser.add_argument("-ct", "--ct-path", type=str, default="./database", help="path to database folder")
+    parser.add_argument("-ct", "--ct-path", type=str, default="./data/gold-database/", help="path to database folder")
     parser.add_argument("--skip-seq", action="store_true", help="skip sequence file if structure file is not found")
     parser.add_argument("--verbose", action="store_true", help="print verbose output")
     parser.add_argument("--cnsns", action="store_true", help="predicted structure is a single consensus structure")
