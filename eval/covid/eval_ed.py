@@ -63,8 +63,6 @@ def get_paired_probs(aligned_sequence_file_path, base_pairing_prob_file_path, k,
         if aligned_sequence[l] + aligned_sequence[r] not in evaluation.VALID_PAIRS:
             continue
         
-        # if l == -1:
-        #     print(base_pairing_prob_file_path)
         l, r = a2s_index[l], a2s_index[r]
 
         if ungapped_sequence[l] + ungapped_sequence[r] not in evaluation.VALID_PAIRS:

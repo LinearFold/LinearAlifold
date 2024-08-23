@@ -374,4 +374,3 @@ def calculate_msa_seq_identity(msa):
     # Calculate the average identity
     average_identity = total_identity / num_comparisons if num_comparisons > 0 else 0
     return average_identity
-    

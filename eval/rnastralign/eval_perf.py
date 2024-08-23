@@ -13,7 +13,7 @@ import numpy as np
 sys.path.insert(0, os.path.abspath(os.path.join(__file__, *(['..'] * 2))))
 import utility
 
-def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gold-database/", cnsns=False, get_msa_seq_identity=False, \
+def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gold-database/", cnsns=False, get_msa_seq_info=False, \
                                      skip_seq=True, allow_slip=True, verbose=False, backsearch=False):
     seq_files_name = sorted([f for f in os.listdir(data_path) if (f.endswith(".fasta") or f.endswith(".txt"))])
     struc_files_name = sorted([f for f in os.listdir(pred_path) if (f.endswith(".txt"))])
@@ -31,7 +31,7 @@ def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gol
     sensitivity_scores = defaultdict(lambda: list())
     f1_scores = defaultdict(lambda: list())
     structural_distances = defaultdict(lambda: list())
-    seq_identities = defaultdict(lambda: list())
+    seq_info = defaultdict(lambda: list())
     
 
     for fid in range(len(seq_files_name)):
@@ -57,11 +57,13 @@ def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gol
                 seqs.append(line.strip().upper())
 
         # calculate sequence identity
-        if get_msa_seq_identity:
+        if get_msa_seq_info:
             for seq in seqs:
                 assert all([x in "ACGUN-" for x in seq]), "Sequence contains non ACGU- characters: " + str(set(seq))
-            seq_identities[family].append(utility.calculate_msa_seq_identity(seqs))
-            # print("Sequence identity for", family, ":", seq_identities[family][-1])
+
+            msa_seq_identity = utility.calculate_msa_seq_identity(seqs)
+            msa_seq_avg_len = np.mean([len(seq.replace("-", "")) for seq in seqs])
+            seq_info[family].append({"identity": msa_seq_identity, "avg_len": msa_seq_avg_len})
 
         struc_lines = open(os.path.join(pred_path, struc_files_name[fid]), "r").readlines()
         if backsearch:
@@ -88,7 +90,7 @@ def evaluate_rnastralign_performance(data_path, pred_path, ct_path = "./data/gol
             f1_scores[family].append(f1)
             structural_distances[family].append(structural_distance)
 
-    return families, precision_scores, sensitivity_scores, f1_scores, structural_distances, seq_identities
+    return families, precision_scores, sensitivity_scores, f1_scores, structural_distances, seq_info
 
 
 if __name__ == "__main__":
@@ -106,9 +108,9 @@ if __name__ == "__main__":
 
     train_set = set(["tRNA", "5S", "tmRNA", "group"])
 
-    families, precision_scores, sensitivity_scores, f1_scores, structural_distances, seq_identities = \
+    families, precision_scores, sensitivity_scores, f1_scores, structural_distances, seq_info = \
         evaluate_rnastralign_performance(args.data_path, args.pred_path, args.ct_path, skip_seq=args.skip_seq, backsearch=args.backsearch,
-                                         verbose=args.verbose, cnsns=args.cnsns, allow_slip=args.allow_slip, get_msa_seq_identity=args.seq_identity)
+                                         verbose=args.verbose, cnsns=args.cnsns, allow_slip=args.allow_slip, get_msa_seq_info=args.seq_identity)
 
     total_f1_avg = 0
     total_sd_avg = 0
@@ -151,7 +153,7 @@ if __name__ == "__main__":
     if args.seq_identity:
         average_value = {}
         for family in families:
-            average_value[family] = np.mean(seq_identities[family])
+            average_value[family] = np.mean(seq_info[family])
         print("Sequence Identity")
         print("{:<8}\t{:>10}".format("Family", "Identity"))
         for family in sorted(families):

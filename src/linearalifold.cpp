@@ -263,7 +263,6 @@ double BeamCKYParser::_make_pscores_ij(int i, int j) // malikap: fixed this func
     }
 
     double score = 0.;
-
     for (int k = 1; k <= 6; k++) { /* ignore pairtype 7 (gap-gap) */
         score += (double)pfreq[k] * (double)(pfreq[k] - 1) / 2 * (double)ribo[k][k];
         for (int l = k + 1; l <= 6; l++) {
