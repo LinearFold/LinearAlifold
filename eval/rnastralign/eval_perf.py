@@ -1,3 +1,8 @@
+# Example run commands:
+# python3 eval_perf.py -d ./data/no_aln/ -p ./outputs/lp_v_mea --allow-slip
+# python3 eval_perf.py -d ./data/aln/ -p ./outputs/laf_part_vn_ma_1.2_0.1/threshknot --cnsns --allow-slip
+# python3 eval_perf.py -d ./data/aln/ -p ./outputs/raf_mfe_mea_rna/output --cnsns --allow-slip --backsearch
+
 import argparse
 import os
 from collections import defaultdict
